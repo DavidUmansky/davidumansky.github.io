@@ -1,0 +1,46 @@
+body { background-color:rgb(236, 220, 220)}
+
+
+div {
+    background-color: rgb(65, 201, 225); padding: 10px; display: none;
+    } 
+
+span:hover+div {display: block;}
+
+.center {
+display: block; margin-left: auto;
+margin-right: auto;
+width: 50%;
+margin-bottom: 20px;
+}
+
+div {
+background-color: rgb(65, 201, 225); padding: 10px; display: none;
+}
+
+span:hover+div {display: block;}
+
+span:hover {color: red; cursor: context-menu;}
+
+.nav {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    background-color:rgb(236, 220, 220);
+    padding: 0;        
+}
+    
+    .nav a {
+        background-color: dodgerblue;
+        color: white;
+        padding: 15px 25px;
+        text-align: center;
+        margin: 5px;
+        text-decoration: none;
+        font-family: sans-serif;
+        width: 190px;
+
+    }
+    
+    a:hover {background-color: mediumblue;}
+    a:active {color: red;}

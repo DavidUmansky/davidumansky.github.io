@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">  
+
+<head>
+<meta charset="UTF8">
+ <link rel="stylesheet" href="tmuna.css">
+<title> תמונה מפה</title>
+</head> 
+
+<body style="font-family: sans-serif; font-size: 18px;">
+
+<div class="nav" id="rosh">
+<a href="index.html"> בית  </a>    
+<a href="trivia.html"> שאלון אקטואליה</a>    
+<a href="tmuna.html" style="background-color: mediumblue;"> תמונה מפה</a>    
+<a href="Shonot.html"> In range+Canvas </a>    
+<a href="mondial.html"> מונדיאל 2002</a>    
+</div> 
+
+<h1>תמונה מפה</h1>
+
+<p>בדף זה נראה את מה שנקרא במושגי הHTML <b>תמונה מפה</b> שזה תמונה לחיצה. לאחר לחיצה על אזור מסויים בתמונה נעבור מיד ללינק פנימי בדף שמביא פרטים קצרים על הדמות עליה לחצנו. בחרתי לשים בדף תמונה של משפחת סימפסון מהסדרה האמריקאית הידועה- צופה בה כרגע ונהנה ממנה. לחצו על אחת הדמויות. ניתן לעבור מדמות לדמות ע"י חזרה לתמונה בראש הדף ולחיצה על דמות רצויה או בגלילה של הדף מעלה/מטה.</p>
+
+<img src="The Simpsons.jpg" alt="תמונה של משפחת סימפסון מהסדרה הידוע" width="550" height="300" usemap="#Simpsons">
+
+<map name="Simpsons">
+<area shape="poly" coords="80,80,70,190,160,270,240,270,120,70" alt="Homer Simpson" href="#Homer">
+<area shape="poly" coords="150,30,180,100,190,160,270,240" alt="Marge Simpson" href="#Marge">
+<area shape="rect" coords="240,130,290,180" alt="Lisa Simpson" href="#Lisa">
+<area shape="circle" coords="325,165,21" alt="Magie Simpson" href="#Magie">
+<area shape="rect" coords="350,120,428,244" alt="Bart Simpson" href="#Bart">
+</map>
+
+<h2 id="Homer" style="margin-top: 100px;">הומר סימפסון</h2>
+ <p> <img src="HomerS.png" alt="Homer Simpson" style="float: right;" width="200" height="150">
+ הומר הוא האבא במשפחה. דמות מצחיקה עם לב טוב. איש פשוט שמדבר בגובה העיניים, עובד קשה לפרנס את משפחתו ומשתדל להיות איש משפחה טוב. תמיד הילדים הגדולים שלו באים לבקש את עצתו כשהם צריכים ולעיתים הבן ברט מלגלג עליו. הומר מקבל את זה לפי מצב הרוח שלו. דמות שלעיתים הולכת אחרי הרגש ופועלת בצורה לא מחושבת אך ברגע האמת הוא תמיד בוחר בדרך הנכונה(כך זה בעונה הראשונה לפחות).
+ </p>
+ <img class="center" src="homer.gif" alt="homer falling" width="300" height="250">
+<a href="#rosh"> חזרה לראש הדף.</a>
+
+
+<h2 id="Marge" style="margin-top: 150px;">מארג' סימפסון</h2>
+<p> <img src="MargeGif.jpg" alt="Marge Simpson" style="float: right;" width="200" height="150"> 
+אישתו של הומר, אוהבת אותו למרות ש2 אחיותיה שונאות אותו ולמרות שלפעמים בעיני החברה הוא מצטייר כ"לוזר". קשורה אל הילדים שלה, מחנכת אותם לערכים טובים. מפרנסת את המשפחה. ניתן לראות בפרקים שהיא תמיד שואפת להיות בן אדם ערכי- חשוב לה ללכת עם המשפחה לכנסיה ביום ראשון(כפי שנהוג אצל נוצרים דתיים), תמיד אומרת דברים מוסריים, מתנגדת לאלימות וכדומה.
+</p>
+<img class="center" src="Marge3.gif" alt="Margge dancing" width="300" height="250">
+<a href="#rosh"> חזרה לראש הדף.</a>
+ 
+
+<h2 id="Lisa" style="margin-top: 150px;">ליסה סימפסון</h2>
+<p> <img src="LisaS.png" alt="Lisa Simpson" style="float: right;" width="200" height="150">
+ ליסה היא הבת השניה במשפחה(אחרי בארט)- הבת היותר מוצלחת מהילדים הגדולים. משקיעה בלימודים, מתנהגת יפה, מקשיבה להורים. לפעמים רבה עם אח שלה אך בדרך כלל הם מסתדרים. אוהבת לקרוא וללמוד דברים, תמיד אומרת דברים חכמים אך אם זה נאמר  לבארט או לאבא הם לא תמיד מקשיבים ועושים את הדברים בדרך שלהם. 
+</p>
+<img class="center" src="LisaGif.gif" alt="Lisa gif" width="300" height="250">
+<a href="#rosh"> חזרה לראש הדף.</a>
+
+
+<h2 id="Magie" style="margin-top: 150px;">מאגי סימפסון</h2>
+<p> <img src="MaggieS.jpg" alt="Maggie Simpson" style="float: right;" width="200" height="150">
+הילדה הכי קטנה, תינוקת. לא מדברת כמצופה מתינוקת ותמיד עם המוצץ בפה. באינטרו של הסדרה ניתן לראות שמעבירים את מגי בקופה של סופרמרקט והיא "עולה" 847 דולר- זה מסמל את העלות החודשית הממוצעת בארה"ב בסוף שנות ה80 להוצאות על תינוק.
+</p>
+<img class="center" src="Maggie Gif.gif" alt="Maggie driving" width="300" height="250">
+<a href="#rosh"> חזרה לראש הדף.</a>
+
+
+<h2 id="Bart" style="margin-top: 150px;">בארט סימפסון</h2>
+<p> <img src="BartS.png" alt="Bart Simpson" style="float: right; margin-bottom: 100px;" width="200" height="150">
+הבן הבכור. ילד שובב המתנהג לפעמים בפראות, לא משקיעה ממש בלימודים כמו אחותו ועושה צרות בסביבה שלו. אוהב להתבדח עם חבריו וגם בבית עם המשפחה, עושה מעשי קונדס. עם לב טוב ותמיד בוחר בדרך הטובה והנכונה בסופו של דבר. עובדה מעניינת- מדובב ע"י אישה בכל העונות.
+</p>
+<img class="center" src="BartGig.gif" alt="Bart writing" width="300" height="250">
+<a href="#rosh"> חזרה לראש הדף.</a>
+
+</body>
+
+</html> 

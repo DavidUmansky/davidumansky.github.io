@@ -1,0 +1,85 @@
+body { background-color:rgb(236, 220, 220);}
+
+.nav {
+    width: fit-content;
+    height: fit-content;
+     display: flex;
+     }
+
+.nav a {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    margin: 5px;
+    text-decoration: none;
+    width: 190px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+a:hover {background-color: mediumblue;}
+a:active {color: red;}
+
+h1 {display: inline-block; margin-top: 0px;}
+
+#shone {display: inline-block;}
+
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {width: 50px; padding-top: 6px;}
+td {text-align: center;} 
+ 
+caption {font-family: "Comic Sans MS", cursive, sans-serif;
+         direction: ltr; 
+ 
+}
+
+table img { height: 30px;}
+
+h2 {border-bottom-style:solid}
+
+#tablediv {background-image: url('worldcuplogo2.jpg');
+           background-repeat: no-repeat;  
+           background-position: 520px 360px; 
+           background-size: 200px 200px
+
+}
+
+td img {margin-top: 3px; }
+
+
+#knockoutdiv {background-image: url('worldcuplogo2.jpg');
+    background-repeat: no-repeat;  
+    background-position: 520px 140px; 
+    background-size: 200px 200px 
+
+}
+
+#final {border-top: 8px solid green;
+        border-left: 8px solid yellow;
+        border-right: 8px solid yellow;
+ }
+
+
+
+#tdfinal {border: 8px solid blue;}
+.yellow {border-bottom: 8px solid blue;}
+
+
+ ul {
+    border: 8px ridge rgb(25, 175, 155);
+    border-bottom: 8px solid teal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: larger;
+}
+
+  
+ul li {background-color: rgb(25, 175, 155); margin-top: 20px;}
+ 
+div p {margin-bottom: 0px;}
+
+ 

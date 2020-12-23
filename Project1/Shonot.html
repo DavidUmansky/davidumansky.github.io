@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">  
+
+<head>
+<meta charset="UTF8">
+ <link rel="stylesheet" href="shonot.css">
+<title> In range+Canvas  </title>
+</head> 
+
+<body style="font-family: sans-serif; font-size: 18px;">
+
+<div class="nav" id="rosh">
+        <a href="index.html"> בית  </a>    
+        <a href="trivia.html"> שאלון אקטואליה</a>    
+        <a href="tmuna.html"> תמונה מפה</a>    
+        <a href="Shonot.html"  style="background-color: mediumblue;"> In range+Canvas</a>    
+        <a href="mondial.html"> מונדיאל 2002</a>    
+</div>  
+ 
+<h1>In range+Canvas</h1>
+
+<p>בדף זה מספר דוגמאות עם שימוש בסלקטור in/out of range שמשפיע על אלמנט שהערך שלו בתוך הטווח שמוגדר לו בפנים. גם מוצג שימוש בקאנבס - מכיל קצת Java Script.</p>
+
+<h2> מספר דוגמאות עם in/out of range- יש לרשום ערך כלשהו ולאחר מכן ללחוץ על הכפתור(מכניס תמונה לקאנבס).</h2>
+
+<div  class="father">
+
+<div style="display: inline-block; vertical-align: top;">
+ <p>1. האם מותר לך לקנות אלכוהול?</p>
+  
+    <ul>
+          <li> גילך:
+            <input id="que1" type="number" placeholder="גיל" min="18">
+            <label for="que1"> </label> 
+          </li>
+    </ul>
+</div>
+  
+<span id="can">
+<img id="bira" style="display: none;" src="beer2.jpg" alt="glass of beer">
+  
+  <canvas  id="myCanvas" width="160" height="240"
+style="border:1px solid black; margin-right: 190px ;">
+Your browser does not support the HTML canvas tag.</canvas>
+<button onclick="myCanvas()"> קח/י בירה- רק אם את/ה בגיל המותר</button>
+
+<script>
+function myCanvas() {
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  var img = document.getElementById("bira");
+  ctx.drawImage(img,0,0);
+}
+</script>
+</span>
+
+<div>
+
+<p>2. האם תוכל/י לקנות רכב מרצדס S-Class 2020?</p>
+  
+<ul> 
+  <li> <span style="vertical-align: top;"> תקציב לקניית רכב: </span>
+    <input style="vertical-align: top;" id="que2" type="number" placeholder="תקציב" min="1645000">
+     <label style="vertical-align: top;" for="que2"> </label> 
+       
+<img id="car" style="display: none;" src="mercedes2.jpg" alt="mercedes car">
+    
+<canvas  id="myCanvas2" width="240" height="160"
+style="border:1px solid black; margin-right: 50px;" >
+Your browser does not support the HTML canvas tag.</canvas> 
+<button onclick="myCanvas2()"> קנה/י מרצדס</button>
+
+<script>
+function myCanvas2() {
+var c = document.getElementById("myCanvas2");
+var ctx = c.getContext("2d");
+var img = document.getElementById("car");
+ctx.drawImage(img,0,0);
+}
+</script>
+  
+  </li>
+</ul>
+
+</div>
+
+
+
+<div>
+
+<p>3. האם את/ה מכור/ה לקפה?</p>
+       
+<ul>        
+  <li> 
+      
+<span style="vertical-align: top;"> כוסות קפה ביום: </span>
+<input style="vertical-align: top;" id="que3" type="number" placeholder="כוסות קפה ביום" min="0" max="2">
+<label style="vertical-align: top;" for="que3"> </label> 
+        
+  
+<img id="coffee" style="display: none;" src="coffee2.jpg" alt="cup of coffee">
+<canvas  id="myCanvas3" width="240" height="160"
+style="border:1px solid black; margin-right: 50px;" >
+Your browser does not support the HTML canvas tag.</canvas> 
+<button onclick="myCanvas3()">   שתה/י קפה  </button>
+  
+<script>
+    function myCanvas3() {
+    var c = document.getElementById("myCanvas3");
+    var ctx = c.getContext("2d");
+    var img = document.getElementById("coffee");
+    ctx.drawImage(img,0,0);
+    }
+</script>
+
+
+  </li>
+</ul>
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+</body>
+
+</html> 
