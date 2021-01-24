@@ -2,9 +2,13 @@ body {background-color: rgb(241, 239, 239)}
 
 * {box-sizing: border-box; }
  
-   
+  header {    position: sticky;
+              top: 8px;
+          } 
+
    .topnav {
-    overflow: hidden; height: 80px;
+    overflow: hidden;
+    height: 80px;
     border: 6px solid black;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -35,7 +39,7 @@ h1 {font-family: "Arial Black", Gadget, sans-serif; font-size: 32px;}
 h2{font-family: Arial, Helvetica, sans-serif; font-size: 20px;}
 
 .divup {
-         width: 65%;
+        width: 65%;
         float: left;
         margin-left: 30px;
       }
@@ -59,10 +63,10 @@ h2{font-family: Arial, Helvetica, sans-serif; font-size: 20px;}
 }
 
 .lastP {
- 
-
-font-family: 'Khula', sans-serif;
+ font-family: 'Khula', sans-serif;
 }
+
+#share {margin-top: 110px;}
 
 .fa {
   
@@ -171,7 +175,7 @@ margin-top: 10px;
   margin-top: 10px;
 }
 
- 
+.lastDiv {margin-top: 700px}
 
  .span2 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
@@ -215,6 +219,9 @@ margin-left: 30px;
     #sub_input {width: 73%;}
     .arrow {padding: 0px 15px; }  
     #sub span {float: left;}
+    #share {margin-top: 0px; margin-bottom: 40px;}
+    .lastDiv {margin-top: 50px}
+
   }
 
  
