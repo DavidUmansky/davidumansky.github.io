@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>אמצו חתול</title>
+    <style>
+         .showcase {width: 50%; margin-top: 20px; height: 400px;}
+    
+        @media(max-width: 420px) {
+            .showcase {
+                width: 90%;
+                height: 350px;
+            }
+        }
+    
+    .want {
+        margin-right: 15px;
+    }
+    
+    .alert-success {display: none;}
+    
+    body {background-color: cornflowerblue;}
+      </style>
+</head>
+<body class="text-center">
+
+  <h1>אמצו חתול</h1>
+  <div class="alert alert-success" role="alert">
+    הפעולה בוצעה בהצלחה, פרטים נוספים ישלחו למייל.
+  </div>
+  <button class="btn btn-primary my-2 generate_btn">חתול הבא</button>
+  <button class="btn btn-primary my-2 want">בחירת חתול</button>
+  <span class="loading"></span>
+
+  <div class="catsImgDiv"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

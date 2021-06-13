@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>דף גיפים</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css">  
+    <style>
+        body {background-color: rgb(66, 65, 119); color: white;}
+        #search,#send,#delete {
+                 width: 150px;
+                 border-radius: .25rem;
+                 border: 1px solid #222;
+                 padding: .375rem .75rem;
+                 margin-right: 8px;
+                 margin-top: 14px;
+                 display: block;
+                }
+        #send:hover,#delete:hover {
+            opacity: 0.8;
+        }
+        ::-webkit-input-placeholder {text-align: center;}
+        
+        img {width: 390px; height: 185px; float: right;
+            margin-right: 15px; margin-top: 15px;
+        }
+        
+        @media(max-width: 420px) {
+            img {
+                width: 92%;
+             }
+        }
+    </style>
+</head>
+<body>
+  
+  <h1 class="text-center">גיפים מגניבים</h1>
+  <div style="float: right;">
+    <input id="search" type="text" placeholder="רשמו גיף רצוי">
+    <input style="color: #fff; background-color: rgb(116, 116, 101);" id="send" type="submit" value="הוספה">  
+    <button style="color: #fff; background-color: rgb(146, 11, 11);" id="delete">מחיקת גיפים</button>  
+  </div>
+
+  
+
+    <script src="script.js"></script>
+</body>
+</html>
