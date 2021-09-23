@@ -1,0 +1,624 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}  
+  
+.hero-image {
+    background-image: url('hotsit-1.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(247, 243, 243);
+    opacity: 0.8;
+    width: 800px;
+    height: 500px;
+    border-radius: 5px;
+    padding: 8px; 
+} 
+
+.hero-image #myLogo2 {
+    width: 7%; 
+    float: right;
+    margin-top: 16px;
+    margin-right: 16px;
+} 
+
+.hero-text h1 {
+    text-align: center !important; 
+    margin-bottom: 5px;
+}
+
+#header_p {
+    font-size: 22px;
+    font-family: cursive;
+}
+
+
+.hero-image #davweb {width: 10%;}
+ 
+#question {width: 7%;
+           margin-left: 7px;
+}
+
+.clr {clear: both;}
+
+#timer {float: left;}
+
+h3 {line-height: 25.2px; }
+
+hr {
+    width: 75%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin-top: 3px;
+}
+
+#timer + p {
+    vertical-align: -10px;
+    line-height: 0px;
+}
+
+.icon p {
+    display: inline;
+    font-size: 19px;
+    vertical-align: 20px;
+    margin-left: 10px;
+} 
+
+#idQues {
+    margin-left: -2px;
+}
+
+
+.icon {
+    margin-top: 17px;
+    margin-left: 23px;
+}
+
+.icon p span {margin-left: 10px;}
+
+select {
+        width: 250px;
+        padding: 10px;
+        font-size: 20px;
+        background-color: deepskyblue;
+        border: 3px solid #411a3d;
+        border-radius: 5px;
+        margin-top: 30px;
+        font-weight: bold;
+        opacity: 1.0;
+    }
+
+select:hover {
+    cursor: pointer;
+    background-color: rgb(116, 250, 255);
+}
+
+#select1 {
+    width: 282px;
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(114, 223, 114);
+    border: 3px solid #411a3d;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: bold;
+    float: right;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(116, 250, 255);
+}
+
+
+@media (max-width: 420px) {
+    .hero-image {
+        height: 1135px;
+    }
+
+    .hero-image a img {
+        width: 38%;
+    }
+
+    .hero-image #davweb {
+        width: 37%;
+    }
+
+    .hero-text {
+        position: initial;
+        top: initial; 
+        left: initial;
+        transform:initial;
+        width: 90%;
+        height: 970px;
+        margin: auto;
+    }
+
+    .hero-image #myLogo2 {
+        width: 23.5%;
+        margin-top: -1085px;
+        margin-right: 16px;
+    }
+
+    button {float: left;}
+
+    .icon {
+        margin-top: 40px;
+    }
+
+    #select1 + select {
+        width: 280px;
+    }
+
+    #question {
+        width: 19%;
+    }
+
+    #question_div {
+        line-height: 2px;
+    }
+
+    #question {
+        width: 18%;
+        float: left;
+        margin-right: 7px;
+    }  
+
+    #timer + p {
+        vertical-align: 10px;
+        line-height: 4px;
+    }
+
+    #danger_div p {
+        line-height: 13px;
+        vertical-align: -1px;
+    }
+
+    #danger_div img {
+        float: left;
+    }
+
+    #question_div p span {
+        margin-left: -11px;
+    }
+
+    #timer_div p span {
+        margin-left: -11px;
+    }
+
+    .icon p {
+        margin-left: -1px;
+    }
+
+    #question_div p span {
+        margin-left: -1px;
+    }
+
+    #timer_div p span {
+        margin-left: 0px;
+    }
+}
+  
+@media(min-width: 410px) and (max-width: 415px) {
+    .hero-image #myLogo2 {
+        width: 22.5%;
+        margin-top: -1098px;
+    }
+
+    #question {
+        margin-top: -14px;
+    }
+}
+
+@media(min-width: 318px) and (max-width: 322px) {
+    .hero-text {
+        width: 94%;
+        height: 994px;
+    }
+
+    .hero-image #myLogo2 {
+        margin-top: -1098px;
+    } 
+
+    #question {
+        margin-right: 4px;
+    margin-left: 1px;
+    }
+}
+
+@media(min-width: 370px) and (max-width: 380px) {
+    #danger_div img {
+        margin-right: 5px;
+    }
+    
+    .hero-image #myLogo2 {
+        margin-top: -1091px;
+    }
+}
+
+@media(min-width: 270px) and (max-width: 290px) {
+    .hero-image #davweb {
+        width: 37%;
+    }
+
+    .hero-image #myLogo2 {
+        width: 23.5%;
+        margin-top: -1208px;
+    }
+
+    .hero-image {
+        height: 1239px;
+    }
+
+    .hero-text {
+        width: 90%;
+        height: 1108px;
+    } 
+
+    #danger_div img {
+        margin-right: 4px;
+    }
+
+    #select1 { width: 232px; }
+    #select1 + select {
+        width: 232px;
+    }
+
+    #question {width: 20%; margin-top: -11px;}
+
+    .hero-image #myLogo2 {
+        margin-top: -1202px;
+    }
+}
+
+@media(min-width: 760px) and (max-width: 775px) {
+    .hero-image #myLogo2 {
+        width: 17%;
+        margin-top: 33px;
+    }
+
+    .hero-image #davweb {
+        width: 27%;
+    }
+
+    .hero-text {
+        width: 742px;
+    }
+
+}
+
+@media(min-width: 1010px) and (max-width: 1030px) {
+    .hero-image #myLogo2 {
+        width: 15%;
+        margin-top: 24px;
+    }
+
+    .hero-image #davweb {
+        width: 22%;
+    }
+
+    .hero-text {
+        top: 42%;
+        width: 935px;
+        height: 619px;
+        padding-top: 52px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+}
+
+ 
+/* Game */ 
+
+.arrow-pointer {
+    width: 850px;
+    height: 57px;
+    background: #083261;
+    position: relative;
+    margin-left: 200px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.arrow-pointer:after {
+      content: '';
+      position: absolute;
+      left: -32px; bottom: 0; width: 0; height: 0;
+      border-right: 32px solid #083261;
+      border-top: 32px solid transparent;
+      border-bottom: 25px solid transparent;
+     }
+  
+    .arrow-pointer:before {
+      content: '';
+      position: absolute;
+      right: -32px;
+      bottom: 0;
+      width: 0;
+      border-left: 32px solid #083261;
+      border-top: 32px solid transparent;
+      border-bottom: 25px solid transparent;
+    }
+  
+    #gameContainer {margin-top: 50px; display: none;}
+
+    .down {margin-bottom: 20px;}
+
+    .down span {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 90%;
+    }
+    
+
+    .answers {
+        display: flex;
+        align-items: center;
+        width: 400px;
+        height: 41px;
+        text-align: initial;
+        margin-right: -68px;
+    }
+    
+    	
+    .answers:after {
+        left: -22px;
+        border-right: 22px solid #083261;
+        border-top: 22px solid transparent;
+        border-bottom: 19px solid transparent;
+    }
+
+.answers::before {
+    right: -22px;
+    border-left: 22px solid #083261;
+    border-top: 22px solid transparent;
+    border-bottom: 19px solid transparent;
+}
+
+.bigger {
+    height: 60px;
+} 
+
+.bigger:before {
+    right: -22px;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+}
+ 
+.bigger:after {
+    left: -22px;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+}
+
+
+.answers:hover {color: cornflowerblue; cursor: pointer;}
+.answers:active {color: orchid;}
+
+.span2 {color: rgb(233, 162, 30); margin-right: 5px;}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.timer {
+    display: inline-block;
+    margin-left: -150px;
+    font-family: cursive;
+    font-size: xx-large;
+    color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 5px 12.6px;
+    width: 66px;
+    background-color: rgb(9, 170, 9);
+
+}
+
+@media (max-width: 420px) {
+
+    .down {
+        width: 276px;
+        height: 100px;
+        margin-top: -501px;
+    }
+
+    .down:before {
+        right: -42px;
+        border-left: 42px solid #083261;
+        border-top: 52px solid transparent;
+        border-bottom: 48px solid transparent;
+    }
+
+    .down:after {
+        left: -42px;
+        border-right: 42px solid #083261;
+        border-top: 52px solid transparent;
+        border-bottom: 48px solid transparent;
+    }
+
+    .down span {text-align: initial;}
+
+    .right {
+        float: left;
+    }
+
+    .answers {
+        margin-left: 8px;
+        width: 295px;
+    }
+
+
+    .timer {
+        margin-left: 248px;
+        margin-bottom: 30px;
+        margin-top: 482px;
+    }
+    
+    .hero-text2 {
+        height: 475px;
+    }
+    
+    .hero-image2 #myLogo2 {
+        margin-top: -587px;
+    }
+    
+    .hero-image2 {
+        height: 640px;
+    }
+
+    #gameContainer {
+        margin-top: -94px;
+    }
+
+}
+
+@media(min-width: 410px) and (max-width: 415px) {
+    
+    .answers {margin-left: 31px;}
+
+    .hero-image2 {
+        height: 731px;
+    }
+
+    .timer {
+        margin-left: 299px;
+        margin-top: 552px;
+    }
+
+    .down {margin-top: -571px;}
+}
+
+@media(min-width: 410px) and (max-width: 415px) and (min-height: 821px) and (max-height: 825px) {
+    .hero-image2 {
+        height: 823px;
+    }
+
+
+
+}
+
+@media(min-width: 318px) and (max-width: 322px) {
+    .hero-image2 #myLogo2 {
+        margin-top: -463px;
+    }
+
+    .down {width: 240px;}
+
+    .answers {
+        width: 283px;
+    }    
+
+    .hero-image2 {
+        width: 330px;
+        height: 585px;
+    }
+
+    .hero-text2 {
+        height: 355px;
+    }
+
+    .timer {
+        margin-left: 240px;
+        margin-top: 469px;
+    }
+}
+
+@media(min-width: 370px) and (max-width: 380px) {
+    .hero-image2 {
+        height: 667px;
+    }
+
+    .hero-image2 #myLogo2 {
+        margin-top: -596px;
+    }
+
+}
+
+@media (min-width: 410px) and (max-width: 415px) and (min-height: 734px) and (max-height: 738px) {
+    .hero-image2 {
+        height: 736px;
+    }
+}
+
+@media(min-width: 370px) and (max-width: 380px) and (min-height: 810px) and (max-height: 814px) {
+    .hero-image2 {
+        height: 812px;
+    }
+}
+
+@media(min-width: 270px) and (max-width: 290px) {
+    .hero-image2 #myLogo2 {
+        margin-top: -567px;
+    }
+
+    .down {
+        width: 185px;
+    }
+
+    .arrow-pointer {padding-top: 0px;}
+
+    .answers{width: 223px;}
+
+    .timer { margin-left: 183px; }
+
+    .hero-image2 {height: 653px;}
+}
+
+@media(min-width: 760px) and (max-width: 775px) {
+    .timer {margin-left: 0px; margin-bottom: 46px}
+
+    #gameContainer {
+        margin-top: -57px;
+    }
+}
+
+@media(min-width: 1020px) and (max-width: 1030px) {
+    .timer {margin-left: 0px; margin-bottom: 46px}
+
+    #gameContainer {
+        margin-top: -57px;
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
