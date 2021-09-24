@@ -147,13 +147,13 @@ button:hover {
         left: initial;
         transform:initial;
         width: 90%;
-        height: 970px;
+        height: 70px;
         margin: auto;
     }
 
     .hero-image #myLogo2 {
      width: 22.5%;
-     margin-top: -10px;
+     margin-top: -1080px;
       margin-right: 16px;
     }
 
