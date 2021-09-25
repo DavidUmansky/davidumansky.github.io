@@ -153,8 +153,9 @@ button:hover {
 
     .hero-image #myLogo2 {
      width: 22.5%;
-     margin-top: -10px;
-      margin-right: 16px;
+     margin-top: -10px; 
+     /* 80 */
+     margin-right: 16px;
     }
 
     button {float: left;}
@@ -220,6 +221,7 @@ button:hover {
     .hero-image #myLogo2 {
         width: 22.5%;
          margin-top: -11px;
+         /* 03 */
     }
 
     #question {
@@ -234,7 +236,8 @@ button:hover {
     }
 
     .hero-image #myLogo2 {
-        margin-top: -10px;
+        margin-top: -1098px;
+        
     } 
 
     #question {
@@ -249,7 +252,8 @@ button:hover {
     }
     
     .hero-image #myLogo2 {
-        margin-top: -10px;
+        margin-top: -1091px;
+        
     }
 }
 
