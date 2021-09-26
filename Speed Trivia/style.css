@@ -84,7 +84,7 @@ hr {
 
 .icon {
     margin-top: 17px;
-    margin-left: 23px;
+    float: left;
 }
 
 .icon p span {margin-left: 10px;}
@@ -170,7 +170,7 @@ button:hover {
     }
 
     #question {
-        width: 19%;
+        width: 16%;
     }
 
     #question_div {
@@ -226,7 +226,7 @@ button:hover {
     }
 
     #question {
-        margin-top: -14px;
+        width: 14.5%;
     }
 
     .hero-text {
