@@ -84,7 +84,6 @@ hr {
 
 .icon {
     margin-top: 17px;
-    float: left;
 }
 
 .icon p span {margin-left: 10px;}
@@ -163,6 +162,7 @@ button:hover {
 
     .icon {
         margin-top: 40px;
+        float: left;
     }
 
     #select1 + select {
