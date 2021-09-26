@@ -227,6 +227,11 @@ button:hover {
     #question {
         margin-top: -14px;
     }
+
+    .hero-text {
+        height: 925px;
+    }
+
 }
 
 @media(min-width: 318px) and (max-width: 322px) {
