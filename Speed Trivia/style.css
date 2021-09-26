@@ -250,7 +250,7 @@ button:hover {
 
     #question {
         margin-right: 4px;
-    margin-left: 1px;
+        width: 18%;
     }
 }
 
