@@ -451,7 +451,6 @@ button:hover {
 .timer {
     display: inline-block;
     margin-left: -150px;
-    font-family: cursive;
     font-size: xx-large;
     color: white;
     border-radius: 50%;
@@ -459,7 +458,7 @@ button:hover {
     padding: 5px 12.6px;
     width: 66px;
     background-color: rgb(9, 170, 9);
-
+    text-align: center;
 }
 
 @media (max-width: 420px) {
