@@ -11,6 +11,11 @@ const divQ = document.querySelector('.down');
 const secSpan = document.querySelector('.timer')
 const answers2 = document.getElementsByClassName('answers');
 const body = document.getElementsByTagName('body');
+const phoneImg = document.getElementsByClassName('test');
+
+if (window.innerWidth < 421) {
+    imgBG.classList.add('test');
+}
 
 let count = 0;
 
