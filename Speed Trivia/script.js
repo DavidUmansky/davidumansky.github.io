@@ -55,8 +55,7 @@ const enterGame = () => {
     introContent.classList.add('hero-text2');
     imgBG.classList.add('hero-image2');
     logo.style.display = 'none';
-    // body[0].style.overflow = 'hidden';
-
+ 
     const httpRequest = new XMLHttpRequest();
     httpRequest.responseType = 'json';
         
