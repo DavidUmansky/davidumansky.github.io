@@ -455,10 +455,13 @@ button:hover {
     color: white;
     border-radius: 50%;
     border: 2px solid white;
-    padding: 5px 12.6px;
     width: 66px;
+    height: 57px;
     background-color: rgb(9, 170, 9);
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 420px) {

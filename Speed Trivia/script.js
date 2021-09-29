@@ -114,12 +114,7 @@ const enterGame = () => {
             
             secSpan.innerHTML = sec_value; 
             
-            if (+sec_value > 9 && +sec_value < 20) {
-                secSpan.style.padding = '5px 11px';        
-            } else {
-                secSpan.style.padding = '5px 12px';
-            }
-
+             
             if (+sec_value < 10) {
                 secSpan.style.backgroundColor = 'red'
             }
