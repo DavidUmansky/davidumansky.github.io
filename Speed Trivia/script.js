@@ -131,7 +131,7 @@ const enterGame = () => {
             }
         
            for (let i = 0; i < 4; i++) {
-             answers[i].addEventListener('click',more) 
+             answers2[i].addEventListener('click',more) 
           }
        }  
     };
