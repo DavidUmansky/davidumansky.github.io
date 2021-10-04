@@ -12,7 +12,7 @@ const secSpan = document.querySelector('.timer')
 const answers2 = document.getElementsByClassName('answers');
 const body = document.getElementsByTagName('body');
 const phoneImg = document.getElementsByClassName('test');
-
+ 
 if (window.innerWidth < 421) {
     imgBG.classList.add('test');
 }
@@ -96,30 +96,39 @@ const enterGame = () => {
           }
             
           insertQ()
-         
+
+        //   secSpan.innerHTML = 30;
+          let sec_value = 31;
+
           let intervalId = setInterval(secondDown,1000)  
         
           function secondDown() {
-            
-            if (secSpan.innerHTML === '01') {
-                clearInterval(intervalId);
-            }
-                         
+ 
+            // if (secSpan.innerHTML === '01') {
+            //     clearInterval(intervalId);
+            // }                         
+
             let i = '0';
-            let sec_value = +(secSpan.innerHTML);
             sec_value--;
     
             if (sec_value < 10) {
                 sec_value = i + sec_value 
             }
-            
-            secSpan.innerHTML = sec_value; 
-            
-             
+ 
+            // if (sec_value === 30) {
+            //     secSpan.style.visibility = 'initial'    
+            // }
+
+            secSpan.innerHTML = sec_value;              
+
             if (+sec_value < 10) {
                 secSpan.style.backgroundColor = 'red'
             }
-    
+ 
+            if (secSpan.innerHTML === '00') {
+                more()
+            }
+
            }
            
            function more() {
@@ -127,6 +136,11 @@ const enterGame = () => {
                   answers[i].innerHTML = ''; 
                 }
                 
+                secSpan.innerHTML = 30;
+                sec_value = 31;
+                // secSpan.style.visibility = 'hidden';
+                secSpan.style.backgroundColor = 'rgb(9, 170, 9)'
+
                 insertQ()
             }
         
