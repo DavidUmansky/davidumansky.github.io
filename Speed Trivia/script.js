@@ -155,6 +155,11 @@ const enterGame = () => {
 
                     }
                 
+                if (window.innerWidth < 415 && window.innerWidth > 410) {
+                    messageImg[0].style.height = '149.5px'
+                }
+                
+
                 if (window.innerWidth < 290) {
                     messageImg[0].style.height = '127.5px'
                     messege[0].style.marginTop = '-0.7px'
