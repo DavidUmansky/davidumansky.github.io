@@ -157,7 +157,7 @@ const enterGame = () => {
                 
                     if (window.innerWidth < 415 && window.innerWidth > 410) {
                         messageImg[0].style.height = '149.5px';
-                        message[0].style.marginLeft = '-0.7px'
+                        messege[0].style.marginLeft = '-0.7px'
                     }
                 
 
