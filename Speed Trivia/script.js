@@ -141,7 +141,7 @@ const enterGame = () => {
                     messageImg[x].style.height = '167px'
                 }
                 messege[0].style.backgroundColor = '#de5e55'
-                messageContent[0].style.border = '5px inset #4b1d24'
+                messageContent[0].style.border = '4px inset #4b1d24'
                 messageContent[0].style.borderTop = '6px inset rgb(199 38 62)'
             
                 if (window.innerWidth < 421) {
