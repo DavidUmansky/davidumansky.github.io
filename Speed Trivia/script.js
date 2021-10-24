@@ -159,7 +159,7 @@ const enterGame = () => {
                         messageImg[0].style.height = '149.5px';
                         messege[0].style.marginLeft = '-0.7px'
                         messageImg[0].style.marginLeft = '-0.7px';
-                        // messageImg[0].style.width = '100.4%';
+                        messageImg[0].style.width = '100.4%';
                     }
                 
 
