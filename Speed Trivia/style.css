@@ -29,7 +29,80 @@
     height: 500px;
     border-radius: 5px;
     padding: 8px; 
-} 
+ }
+
+.hero-text3 {
+    text-align: center;
+    top: 43%;   
+}
+    
+    section {margin-top: 20px;}
+
+    section p {
+        font-size: 17px;
+        font-family: 'Raleway', sans-serif;
+        background-color: #1f4221;
+        padding: 8px;
+        width: 85%;
+        margin: auto;
+        color: white;
+        border: 1px solid #cece20;
+    }
+
+    .fixH {
+        margin-top: 17px;
+    }
+
+    #fixArrow {
+        width: 100px;
+        margin-top: 28px;
+    }
+     
+    #likeTop {font-size: 68px; margin: auto;}
+
+    .messegeC {
+        height: 216px;
+        border: 6px inset #13b208;
+        border-radius: 5px;
+        width: 90%;
+        margin: auto;
+        margin-top: -4px;
+    }
+     
+    .hero-text .messege {
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #369a3c;
+    padding: 8px;
+    opacity: 0.9;
+    text-align: initial;
+    margin-top: -0.5px;
+    margin-right: -0.7px;
+}
+
+    .hero-text .happy {
+        height: 149px;
+        float: left;
+        width: 33.33%;
+    }
+
+.box {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    } 
+
+    .box #video {margin-top: 17px;}
+
+.box img:hover {cursor: pointer;}
+
+.box p:hover {background-color: #2db93c; cursor: pointer;}
+
+.box a {text-decoration: none;}
+
+
+/* END  */
+
 
 .hero-image #myLogo2 {
     width: 7%; 
@@ -380,6 +453,7 @@ button:hover {
     }
   
     #gameContainer {margin-top: 50px; display: none;}
+    #endGame {display: none;}
 
     .down {margin-bottom: 20px;}
 
@@ -547,7 +621,8 @@ button:hover {
     }    
 
     .hero-image2 {
-        width: 330px;
+        width: 320px;
+        overflow: hidden;
     }
 
     .hero-text2 {
@@ -562,7 +637,7 @@ button:hover {
 
 @media(min-width: 370px) and (max-width: 380px) {
     .hero-image2 {
-        height: 667px;
+        height: 100vh;
     }
 
     .hero-image2 #myLogo2 {
@@ -594,6 +669,15 @@ button:hover {
     #gameContainer {
         margin-top: -57px;
     }
+
+    .arrow-pointer {
+        width: 688px;
+    }
+
+    .left {float: none;}
+    .right {float: none;}
+    .answers {width: 580px; margin-right: auto;}
+
 }
 
 @media(min-width: 1020px) and (max-width: 1030px) {
@@ -602,12 +686,79 @@ button:hover {
     #gameContainer {
         margin-top: -57px;
     }
+
+    .right {float: none;}
 } 
+ 
+/* End of the game */
 
+@media (max-width: 420px) {
+    .hero-text3 {
+        margin-top: -110px;
+    }
 
+    .hero-text3  {
+        width: 95%;
+    }
 
+    .messegeC {width: 100%;}
 
+    .hero-text .happy {width: 100.3%;}
+    
+    .box #like {width: 60%;}
+    .box #video {width: 66%; margin-top: 4px;}
+    #fixArrow {width: 72%; margin-top: 8px;}
 
+    .box p {
+        background-color: initial;
+        border: none;
+        padding: initial;
+        }
+
+    #firstI {
+        margin-top: -11px;
+    }
+    
+    #secondI {
+        width: 110%;
+        margin-left: -8px;
+    }
+
+    #thirdI {
+        margin-top: 9px;
+    }
+    
+}
+
+@media(min-width: 270px) and (max-width: 290px) {
+    .hero-text .happy {
+        width: 101%;
+        margin-left: -1px;
+    }
+
+    .messege {
+        width: 101%;
+        margin-left: -1px;
+    }
+
+    .messegeC {border-width: 4px 5px 5px;} 
+
+    .box #like {
+        width: 62%;
+    }
+
+    #fixArrow {
+        margin-top: 6.5px;
+    }
+     
+    #firstI {
+        margin-top: -9px;
+    }   
+
+    #thirdI {
+        margin-top: 6px;
+    }
+}
 
 
 
