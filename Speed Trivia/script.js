@@ -116,6 +116,11 @@ const enterGame = () => {
                     messageImg[0].style.height = '168px'
                     document.getElementById('fixArrow').style.marginTop = '10px';
                     document.getElementById('video').style.marginTop = '5px'
+                    
+                    if (subject2 === 'animals') {
+                        messageImg[0].style.height = '148.1px'
+                    } 
+                    // fix 5 lines erro
                 }                
 
                 if (window.innerWidth < 322 && window.innerWidth > 318) {
