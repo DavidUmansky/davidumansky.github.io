@@ -160,8 +160,9 @@ const enterGame = () => {
                         messege[0].style.marginLeft = '-0.7px'
                         messageImg[0].style.marginLeft = '-0.7px';
                         messageImg[0].style.width = '100.5%';
-                        document.getElementById('fixArrow').style.marginRight = '4px';
                         document.getElementById('secondI').style.marginLeft = '-4px';
+                        document.getElementById('video').style.marginLeft = '10px';
+
                     }
                 
 
