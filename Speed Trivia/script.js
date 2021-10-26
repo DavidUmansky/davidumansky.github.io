@@ -121,7 +121,12 @@ const enterGame = () => {
                     if (subject2 === 'animals') {
                         messageImg[0].style.height = '148.1px'
                     } 
-                    // fix 5 lines erro
+                    // fix 5 lines error
+
+                    document.getElementById('firstI').style.marginTop = '-12px';
+                    document.getElementById('thirdI').style.marginTop = '11px';
+                    document.getElementById('secondI').style.marginLeft = '-4px';
+                    document.getElementById('video').style.marginLeft = '4px';
                 }                
 
                 if (window.innerWidth < 322 && window.innerWidth > 318) {
