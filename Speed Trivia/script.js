@@ -140,6 +140,10 @@ const enterGame = () => {
                     document.getElementById('firstI').style.marginTop = '-6px';
                 }                 
                 
+                if (window.innerWidth < 1030 && window.innerWidth > 1020) {
+                    messageContent[0].style.width = '95%'
+                }
+
                 return;
             }
 
@@ -183,6 +187,13 @@ const enterGame = () => {
 
                 }
                 
+                if (window.innerWidth < 1030 && window.innerWidth > 1020) {
+                    for(let x = 0; x < 3; x++) {
+                        messageImg[x].style.height = '168px'
+                    }
+                    messageContent[0].style.width = '95%'
+                }
+
                 return;
             }
 
