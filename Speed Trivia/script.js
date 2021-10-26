@@ -94,7 +94,7 @@ const enterGame = () => {
           function insertQ() {
             count++
     
-            if (count > 4 && gameO_counter < 10) {
+            if (count > 10 && gameO_counter < 3) {
 
                 endM();
                 messege[0].innerHTML = `You won the 1,000,000$ with ${correct} right answers! your knowladge in the ${subject2} subject is excellent. try higher level 
@@ -137,7 +137,7 @@ const enterGame = () => {
                 return;
             }
 
-            if (gameO_counter === 10) {
+            if (gameO_counter === 3) {
                 console.log('Game Over, stop game and enter message');
                 endM();
                 messegeSign.innerHTML = '&#128078'
