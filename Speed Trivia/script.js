@@ -104,6 +104,7 @@ const enterGame = () => {
                     for(let y = 0; y < 2; y++) {
                         messageImg[y].parentNode.removeChild(messageImg[y])
                         }                
+                        messageImg[0].src = 'victory.gif';
                         messageImg[0].style.height = '148.1px' 
                         messageImg[0].style.width = '100%'
                         messageContent[0].style.height = '275px'
