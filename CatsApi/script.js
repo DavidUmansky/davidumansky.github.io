@@ -28,6 +28,8 @@ function fetchPics() {
 
         catsImgDiv.appendChild(catsImgEl);
         loading.innerHTML = '';
+       } else {
+           console.log('Error');
        }  
      };
   
