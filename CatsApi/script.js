@@ -17,9 +17,9 @@ function fetchPics() {
         loading.innerHTML = 'חתול בטעינה...'
     }
 
-    httpRequest.onload = function() {
+    httpRequest.onreadystatechange = function() {
        
-    if (httpRequest.status === 200) {
+    if (httpRequest.status === 200 && httpRequest.readyState === 4) {
         let catsImgUrl = httpRequest.response[0].url;
 
         let catsImgEl = document.createElement('img');
@@ -28,10 +28,12 @@ function fetchPics() {
 
         catsImgDiv.appendChild(catsImgEl);
         loading.innerHTML = '';
-       }  
+       } else {
+           console.log(httpRequest.readyState);
+       }   
      };
   
-    httpRequest.open('GET', 'https://api.thecatapi.com/v1/images/search');
+    httpRequest.open('GET', 'https://api.thecamages/search');
     httpRequest.send();
 }
 
@@ -41,9 +43,3 @@ function showMsg() {
     let alert_success = document.querySelector('.alert-success')
     alert_success.style.display = 'block';    
 }
-
-
-
-
-
-
