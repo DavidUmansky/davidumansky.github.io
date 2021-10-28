@@ -95,11 +95,14 @@ const enterGame = () => {
             count++
     
             if (count > 3 && gameO_counter < 10) {
-            
+                
                 endM();
                 messege[0].innerHTML = `You win the 1,000,000$ with ${correct} right answers! Your knowledge in 
                 the subject of ${subject2} is excellent. Try higher levels /play with other subjects.`
-                
+                for(let x = 0; x < 3; x++) {
+                    messageImg[x].src = 'victory.gif';
+                }                
+
                 if (window.innerWidth < 421) {
                     for(let y = 0; y < 2; y++) {
                         messageImg[y].parentNode.removeChild(messageImg[y])
