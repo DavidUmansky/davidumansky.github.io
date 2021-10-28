@@ -98,7 +98,7 @@ const enterGame = () => {
             
                 endM();
                 messege[0].innerHTML = `You win the 1,000,000$ with ${correct} right answers! Your knowledge in 
-                the subject of animals is excellent. Try higher levels /play with other subjects.`
+                the subject of ${subject2} is excellent. Try higher levels /play with other subjects.`
                 
                 if (window.innerWidth < 421) {
                     for(let y = 0; y < 2; y++) {
