@@ -94,7 +94,7 @@ const enterGame = () => {
           function insertQ() {
             count++
     
-            if (count > 3 && gameO_counter < 10) {
+            if (count > 10 && gameO_counter < 3) {
                 
                 endM();
                 messege[0].innerHTML = `You win the 1,000,000$ with ${correct} right answers! Your knowledge in 
@@ -117,15 +117,8 @@ const enterGame = () => {
                     }
                 
                 if (window.innerWidth < 415 && window.innerWidth > 410) {
-                    // messageImg[0].style.height = '168px'
                     document.getElementById('fixArrow').style.marginTop = '10px';
                     document.getElementById('video').style.marginTop = '5px'
-                    
-                    // if (subject2 === 'animals') {
-                    //     messageImg[0].style.height = '148.1px'
-                    // } 
-                    // fix 5 lines error
-
                     document.getElementById('firstI').style.marginTop = '-12px';
                     document.getElementById('thirdI').style.marginTop = '11px';
                     document.getElementById('secondI').style.marginLeft = '-4px';
@@ -150,7 +143,7 @@ const enterGame = () => {
                 return;
             }
 
-            if (gameO_counter === 10) {
+            if (gameO_counter === 3) {
                 console.log('Game Over, stop game and enter message');
                 endM();
                 messegeSign.innerHTML = '&#128078'
