@@ -117,7 +117,7 @@ const enterGame = () => {
                     }
                 
                 if (window.innerWidth < 415 && window.innerWidth > 410) {
-                    messageImg[0].style.height = '168px'
+                    // messageImg[0].style.height = '168px'
                     document.getElementById('fixArrow').style.marginTop = '10px';
                     document.getElementById('video').style.marginTop = '5px'
                     
