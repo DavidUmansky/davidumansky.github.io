@@ -94,7 +94,7 @@ const enterGame = () => {
           function insertQ() {
             count++
     
-            if (count > 10 && gameO_counter < 3) {
+            if (count > 3 && gameO_counter < 10) {
             
                 endM();
                 messege[0].innerHTML = `You win the 1,000,000$ with ${correct} right answers! Your knowledge in 
@@ -147,7 +147,7 @@ const enterGame = () => {
                 return;
             }
 
-            if (gameO_counter === 3) {
+            if (gameO_counter === 10) {
                 console.log('Game Over, stop game and enter message');
                 endM();
                 messegeSign.innerHTML = '&#128078'
