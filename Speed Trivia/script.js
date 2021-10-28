@@ -95,10 +95,10 @@ const enterGame = () => {
             count++
     
             if (count > 10 && gameO_counter < 3) {
-
+            
                 endM();
-                messege[0].innerHTML = `You won the 1,000,000$ with ${correct} right answers! your knowladge in the ${subject2} subject is excellent. try higher level 
-                /play with another subject.`
+                messege[0].innerHTML = `You win the 1,000,000$ with ${correct} right answers! Your knowledge in 
+                the subject of animals is excellent. Try higher levels /play with other subjects.`
                 
                 if (window.innerWidth < 421) {
                     for(let y = 0; y < 2; y++) {
