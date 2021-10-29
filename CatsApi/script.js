@@ -17,7 +17,6 @@ function fetchPics() {
                 console.log('Error');
                 return;
             }
-            // Examine the text in the response
             
             response.json().then(function(data) {
             let catsImgUrl = data[0].url;
