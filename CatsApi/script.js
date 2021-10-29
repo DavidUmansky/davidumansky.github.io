@@ -10,32 +10,35 @@ function fetchPics() {
     let catsImgDiv = document.querySelector('.catsImgDiv');
     catsImgDiv.innerHTML = ''
     
-    var httpRequest = new XMLHttpRequest();
-    httpRequest.responseType = 'json';
-    
-    httpRequest.onloadstart = function() {
-        loading.innerHTML = 'חתול בטעינה...'
-    }
+    fetch('https://api.thecatapi.com/v1/images/search')
+        .then(
+        function(response) {
+            if (response.status !== 200) {
+                console.log('Error');
+                return;
+            }
+            // Examine the text in the response
+            
+            response.json().then(function(data) {
+            let catsImgUrl = data[0].url;
+            let catsImgEl = document.createElement('img');
+            catsImgEl.setAttribute('src',`${catsImgUrl}`);
+            catsImgEl.classList.add('showcase');
+            catsImgDiv.appendChild(catsImgEl);
+            loading.innerHTML = '';        
+            });
+        }
+        )
+        .catch(function(err) {
+            console.log('Error');
+        }); 
 
-    httpRequest.onload = function() {
-       
-    if (httpRequest.status === 200) {
-        let catsImgUrl = httpRequest.response[0].url;
 
-        let catsImgEl = document.createElement('img');
-        catsImgEl.setAttribute('src',`${catsImgUrl}`);
-        catsImgEl.classList.add('showcase');
+    // httpRequest.onloadstart = function() {
+    //     loading.innerHTML = 'חתול בטעינה...'
+    // }
 
-        catsImgDiv.appendChild(catsImgEl);
-        loading.innerHTML = '';
-       } else {
-           console.log('Error');
-       }  
-     };
-  
-    httpRequest.open('GET', 'https://api.thecatapi.com/v1/images/search');
-    httpRequest.send();
-}
+ }
 
 fetchPics();
 
