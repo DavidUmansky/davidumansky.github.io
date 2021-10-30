@@ -9,6 +9,7 @@ want.addEventListener('click',showMsg)
 function fetchPics() {
     let catsImgDiv = document.querySelector('.catsImgDiv');
     catsImgDiv.innerHTML = ''
+    loading.innerHTML = 'חתול בטעינה...'
     
     fetch('https://api.thecatapi.com/v1/images/search')
         .then(
@@ -17,6 +18,7 @@ function fetchPics() {
                 console.log('Error');
                 return;
             }
+            // Examine the text in the response
             
             response.json().then(function(data) {
             let catsImgUrl = data[0].url;
@@ -31,13 +33,7 @@ function fetchPics() {
         .catch(function(err) {
             console.log('Error');
         }); 
-
-
-    // httpRequest.onloadstart = function() {
-    //     loading.innerHTML = 'חתול בטעינה...'
-    // }
-
- }
+}
 
 fetchPics();
 
@@ -45,9 +41,3 @@ function showMsg() {
     let alert_success = document.querySelector('.alert-success')
     alert_success.style.display = 'block';    
 }
-
-
-
-
-
-
