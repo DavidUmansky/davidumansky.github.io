@@ -160,7 +160,7 @@ const enterGame = () => {
                     for(let y = 0; y < 2; y++) {
                         messageImg[y].parentNode.removeChild(messageImg[y])
                         }                
-                        messageImg[0].style.height = '148px' 
+                        messageImg[0].style.height = '149.5px' 
                         document.getElementById('fixArrow').src = 'return.png';
                         messegeSign.style.width = '61%';
                         document.getElementById('fixArrow').style.marginTop = '9px';
