@@ -150,7 +150,7 @@ const enterGame = () => {
                 messege[0].innerHTML = `You have 3 wrong answers, game over &#128542 try again.`;
                 for(let x = 0; x < 3; x++) {
                     messageImg[x].src = 'failed.gif';
-                    messageImg[x].style.height = '167px'
+                    messageImg[x].style.height = '168px'
                 }
                 messege[0].style.backgroundColor = '#de5e55'
                 messageContent[0].style.border = '5px solid #4b1d24'
