@@ -180,7 +180,8 @@ const enterGame = () => {
                 if (window.innerWidth < 290) {
                     messageImg[0].style.height = '127.5px'
                     messege[0].style.marginTop = '-0.7px'
-
+                    document.getElementById('fixArrow').style.marginTop = '7px';
+                    document.getElementById('firstI').style.marginTop = '-6px';
                 }
                 
                 if (window.innerWidth < 1030 && window.innerWidth > 1020) {
