@@ -131,7 +131,7 @@ const enterGame = () => {
                 }
 
                 if (window.innerWidth < 290 && window.innerWidth > 270) {
-                    messageImg[0].style.height = '91px'
+                    messageImg[0].style.height = '111px'
                     messageImg[0].style.width = '100.7%' 
                     document.getElementById('firstI').style.marginTop = '-6px';
                 }                 
