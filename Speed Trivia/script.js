@@ -114,6 +114,7 @@ const enterGame = () => {
                         messege[0].style.marginTop = '-0.6px'
                         document.getElementById('fixArrow').src = 'return.png';
                         document.getElementById('firstI').style.marginTop = '-9px';
+                        document.getElementById('video').style.marginLeft = '6px';
                     }
                 
                 if (window.innerWidth < 415 && window.innerWidth > 410) {
