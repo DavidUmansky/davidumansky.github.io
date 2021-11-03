@@ -164,7 +164,7 @@ const enterGame = () => {
                         document.getElementById('fixArrow').src = 'return.png';
                         messegeSign.style.width = '61%';
                         document.getElementById('fixArrow').style.marginTop = '9px';
-
+                        document.getElementById('video').style.marginLeft = '6px';
                     }
                 
                     if (window.innerWidth < 415 && window.innerWidth > 410) {
