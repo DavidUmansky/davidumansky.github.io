@@ -728,6 +728,11 @@ button:hover {
         margin-top: 9px;
     }
     
+    #endGame section {
+        width: 100%;
+        margin-left: 4px;
+    }
+
 }
 
 @media(min-width: 270px) and (max-width: 290px) {
