@@ -136,6 +136,7 @@ section p {
 .hero-image #davweb {
     width: 12%;
     margin-top: -8px;
+    margin-left: -10px;
 }
 
 #question {
