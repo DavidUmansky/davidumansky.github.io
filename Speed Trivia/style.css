@@ -122,7 +122,10 @@
 }
 
 
-.hero-image #davweb {width: 10%;}
+.hero-image #davweb {
+    width: 12%;
+    margin-top: -8px;
+}
  
 #question {width: 7%;
            margin-left: 7px;
