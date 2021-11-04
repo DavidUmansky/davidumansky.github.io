@@ -394,7 +394,7 @@ button:hover {
 
 @media(min-width: 1010px) and (max-width: 1030px) {
     .hero-image #myLogo2 {
-        width: 15%;
+        width: 14%;
         margin-top: 24px;
     }
     .hero-image #davweb {
