@@ -305,7 +305,7 @@ button:hover {
 @media(min-width: 410px) and (max-width: 415px) {
     .hero-image #myLogo2 {
         width: 20%;
-        margin-top: -1012px;
+        margin-top: -1012.5px;
         /* This is my */
     }
     #question {
