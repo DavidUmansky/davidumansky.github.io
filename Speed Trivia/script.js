@@ -187,7 +187,7 @@ const enterGame = () => {
 
                     if (window.innerWidth < 1030 && window.innerWidth > 1020) {
                         for (let x = 0; x < 3; x++) {
-                            messageImg[x].style.height = '168px'
+                            messageImg[x].style.height = '169px'
                         }
                         messageContent[0].style.width = '95%'
                     }
