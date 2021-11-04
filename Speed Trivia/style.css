@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Lato;
-}  
-  
+}
+
 .hero-image {
     background-image: url('hotsit-2.jpg');
     height: 100vh;
@@ -12,9 +12,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-  }
+}
 
-  .test {
+.test {
     background-image: url('hotsit-1.jpg');
 }
 
@@ -28,48 +28,53 @@
     width: 800px;
     height: 500px;
     border-radius: 5px;
-    padding: 8px; 
- }
+    padding: 8px;
+}
 
 .hero-text3 {
     text-align: center;
-    top: 43%;   
+    top: 43%;
 }
-    
-    section {margin-top: 20px;}
 
-    section p {
-        font-size: 17px;
-        font-family: 'Raleway', sans-serif;
-        background-color: #1f4221;
-        padding: 8px;
-        width: 85%;
-        margin: auto;
-        color: white;
-        border: 1px solid #cece20;
-    }
+section {
+    margin-top: 20px;
+}
 
-    .fixH {
-        margin-top: 17px;
-    }
+section p {
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #1f4221;
+    padding: 8px;
+    width: 85%;
+    margin: auto;
+    color: white;
+    border: 1px solid #cece20;
+}
 
-    #fixArrow {
-        width: 100px;
-        margin-top: 28px;
-    }
-     
-    #likeTop {font-size: 68px; margin: auto;}
+.fixH {
+    margin-top: 17px;
+}
 
-    .messegeC {
-        height: 216px;
-        border: 6px inset #13b208;
-        border-radius: 5px;
-        width: 98%;
-        margin: auto;
-        margin-top: -4px;
-    }
-     
-    .hero-text .messege {
+#fixArrow {
+    width: 100px;
+    margin-top: 28px;
+}
+
+#likeTop {
+    font-size: 68px;
+    margin: auto;
+}
+
+.messegeC {
+    height: 216px;
+    border: 6px inset #13b208;
+    border-radius: 5px;
+    width: 98%;
+    margin: auto;
+    margin-top: -4px;
+}
+
+.hero-text .messege {
     font-size: 17px;
     font-family: 'Raleway', sans-serif;
     background-color: #369a3c;
@@ -80,39 +85,46 @@
     margin-right: -0.7px;
 }
 
-    .hero-text .happy {
-        height: 149px;
-        float: left;
-        width: 33.33%;
-    }
+.hero-text .happy {
+    height: 149px;
+    float: left;
+    width: 33.33%;
+}
 
 .box {
     float: left;
     width: 33.3%;
     text-align: center;
-    } 
+}
 
-    .box #video {margin-top: 17px;}
+.box #video {
+    margin-top: 17px;
+}
 
-.box img:hover {cursor: pointer;}
+.box img:hover {
+    cursor: pointer;
+}
 
-.box p:hover {background-color: #2db93c; cursor: pointer;}
+.box p:hover {
+    background-color: #2db93c;
+    cursor: pointer;
+}
 
-.box a {text-decoration: none;}
-
+.box a {
+    text-decoration: none;
+}
 
 /* END  */
 
-
 .hero-image #myLogo2 {
-    width: 7%; 
+    width: 7%;
     float: right;
     margin-top: 21px;
     margin-right: 16px;
-} 
+}
 
 .hero-text h1 {
-    text-align: center !important; 
+    text-align: center !important;
     margin-bottom: 5px;
 }
 
@@ -121,21 +133,27 @@
     font-family: 'Raleway', sans-serif;
 }
 
-
 .hero-image #davweb {
     width: 12%;
     margin-top: -8px;
 }
- 
-#question {width: 7%;
-           margin-left: 7px;
+
+#question {
+    width: 7%;
+    margin-left: 7px;
 }
 
-.clr {clear: both;}
+.clr {
+    clear: both;
+}
 
-#timer {float: left;}
+#timer {
+    float: left;
+}
 
-h3 {line-height: 25.2px; }
+h3 {
+    line-height: 25.2px;
+}
 
 hr {
     width: 75%;
@@ -145,7 +163,7 @@ hr {
     margin-top: 3px;
 }
 
-#timer + p {
+#timer+p {
     vertical-align: -10px;
     line-height: 0px;
 }
@@ -155,30 +173,31 @@ hr {
     font-size: 19px;
     vertical-align: 20px;
     margin-left: 10px;
-} 
+}
 
 #idQues {
     margin-left: -2px;
 }
 
-
 .icon {
     margin-top: 17px;
 }
 
-.icon p span {margin-left: 10px;}
+.icon p span {
+    margin-left: 10px;
+}
 
 select {
-        width: 250px;
-        padding: 10px;
-        font-size: 20px;
-        background-color: deepskyblue;
-        border: 3px solid #411a3d;
-        border-radius: 5px;
-        margin-top: 30px;
-        font-weight: bold;
-        opacity: 1.0;
-    }
+    width: 250px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: deepskyblue;
+    border: 3px solid #411a3d;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: bold;
+    opacity: 1.0;
+}
 
 select:hover {
     cursor: pointer;
@@ -206,114 +225,95 @@ button:hover {
     background-color: rgb(116, 250, 255);
 }
 
-
 @media (max-width: 420px) {
     .hero-image {
         height: 1135px;
     }
-
     .hero-image a img {
         width: 38%;
     }
-
     .hero-image #davweb {
         width: 37%;
         margin-left: -9px;
     }
-
     .hero-text {
         position: initial;
-        top: initial; 
+        top: initial;
         left: initial;
-        transform:initial;
+        transform: initial;
         width: 90%;
         height: 970px;
         margin: auto;
     }
-
     .hero-image #myLogo2 {
-    width: 21%;
-    margin-top: -1083px;
-     margin-right: 16px;
+        width: 21%;
+        margin-top: -1083px;
+        margin-right: 16px;
     }
-
-    img#timer { margin-bottom: 50px; }
-    
-    button {float: left;}
-
+    img#timer {
+        margin-bottom: 50px;
+    }
+    button {
+        float: left;
+    }
     .icon {
         margin-top: 40px;
         float: left;
     }
-
-    #select1 + select {
+    #select1+select {
         width: 280px;
     }
-
     #question {
         width: 16%;
     }
-
     #question_div {
         line-height: 2px;
     }
-
     #question {
         width: 16%;
         float: left;
         margin-right: 6px;
-    }  
-
-    #timer + p {
+    }
+    #timer+p {
         vertical-align: 10px;
         line-height: 4px;
     }
-
     #danger_div p {
         line-height: 13px;
         vertical-align: -1px;
     }
-
     #danger_div img {
         float: left;
     }
-
     #question_div p span {
         margin-left: -11px;
     }
-
     #timer_div p span {
         margin-left: -11px;
     }
-
     .icon p {
         margin-left: -1px;
     }
-
     #question_div p span {
         margin-left: -1px;
     }
-
     #timer_div p span {
         margin-left: 0px;
     }
 }
-  
+
 @media(min-width: 410px) and (max-width: 415px) {
     .hero-image #myLogo2 {
         width: 20%;
         margin-top: -1012px;
         /* This is my */
     }
-
     #question {
         width: 14.5%;
     }
-
     .hero-text {
         height: 888px;
     }
-
 }
 
 @media(min-width: 318px) and (max-width: 322px) {
@@ -321,14 +321,12 @@ button:hover {
         width: 94%;
         height: 994px;
     }
-
     .hero-image #myLogo2 {
         margin-top: -1098px;
-        
-    } 
-
-    img#timer { margin-bottom: 73px; }
-
+    }
+    img#timer {
+        margin-bottom: 73px;
+    }
     #question {
         margin-right: 4px;
         width: 18%;
@@ -339,10 +337,8 @@ button:hover {
     #danger_div img {
         margin-right: 5px;
     }
-    
     .hero-image #myLogo2 {
         margin-top: -1091px;
-        
     }
 }
 
@@ -350,34 +346,33 @@ button:hover {
     .hero-image #davweb {
         width: 37%;
     }
-
     .hero-image #myLogo2 {
         width: 23.5%;
         margin-top: -1208px;
     }
-
     .hero-image {
         height: 1239px;
     }
-
     .hero-text {
         width: 90%;
         height: 1108px;
-    } 
-
-    img#timer { margin-bottom: initial }
-
+    }
+    img#timer {
+        margin-bottom: initial
+    }
     #danger_div img {
         margin-right: 4px;
     }
-
-    #select1 { width: 232px; }
-    #select1 + select {
+    #select1 {
         width: 232px;
     }
-
-    #question {width: 20%; margin-top: -11px;}
-
+    #select1+select {
+        width: 232px;
+    }
+    #question {
+        width: 20%;
+        margin-top: -11px;
+    }
     .hero-image #myLogo2 {
         margin-top: -1202px;
     }
@@ -388,15 +383,12 @@ button:hover {
         width: 17%;
         margin-top: 26px;
     }
-
     .hero-image #davweb {
         width: 27%;
     }
-
     .hero-text {
         width: 742px;
     }
-
 }
 
 @media(min-width: 1010px) and (max-width: 1030px) {
@@ -404,11 +396,9 @@ button:hover {
         width: 15%;
         margin-top: 24px;
     }
-
     .hero-image #davweb {
         width: 22%;
     }
-
     .hero-text {
         top: 42%;
         width: 935px;
@@ -417,11 +407,9 @@ button:hover {
         padding-right: 20px;
         padding-left: 20px;
     }
-
 }
 
- 
-/* Game */ 
+/* Game */
 
 .arrow-pointer {
     width: 850px;
@@ -437,57 +425,66 @@ button:hover {
 }
 
 .arrow-pointer:after {
-      content: '';
-      position: absolute;
-      left: -32px; bottom: 0; width: 0; height: 0;
-      border-right: 32px solid #083261;
-      border-top: 32px solid transparent;
-      border-bottom: 25px solid transparent;
-     }
-  
-    .arrow-pointer:before {
-      content: '';
-      position: absolute;
-      right: -32px;
-      bottom: 0;
-      width: 0;
-      border-left: 32px solid #083261;
-      border-top: 32px solid transparent;
-      border-bottom: 25px solid transparent;
-    }
-  
-    #gameContainer {margin-top: 50px; display: none;}
-    #endGame {display: none;}
+    content: '';
+    position: absolute;
+    left: -32px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-right: 32px solid #083261;
+    border-top: 32px solid transparent;
+    border-bottom: 25px solid transparent;
+}
 
-    .down {margin-bottom: 20px;}
+.arrow-pointer:before {
+    content: '';
+    position: absolute;
+    right: -32px;
+    bottom: 0;
+    width: 0;
+    border-left: 32px solid #083261;
+    border-top: 32px solid transparent;
+    border-bottom: 25px solid transparent;
+}
 
-    .down span {
-        margin: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        width: 90%;
-    }
-    
+#gameContainer {
+    margin-top: 50px;
+    display: none;
+}
 
-    .answers {
-        display: flex;
-        align-items: center;
-        width: 400px;
-        height: 41px;
-        text-align: initial;
-        margin-right: -68px;
-    }
-    
-    	
-    .answers:after {
-        left: -22px;
-        border-right: 22px solid #083261;
-        border-top: 22px solid transparent;
-        border-bottom: 19px solid transparent;
-    }
+#endGame {
+    display: none;
+}
+
+.down {
+    margin-bottom: 20px;
+}
+
+.down span {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+.answers {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 41px;
+    text-align: initial;
+    margin-right: -68px;
+}
+
+.answers:after {
+    left: -22px;
+    border-right: 22px solid #083261;
+    border-top: 22px solid transparent;
+    border-bottom: 19px solid transparent;
+}
 
 .answers::before {
     right: -22px;
@@ -498,25 +495,33 @@ button:hover {
 
 .bigger {
     height: 60px;
-} 
+}
 
 .bigger:before {
     right: -22px;
     border-top: 30px solid transparent;
     border-bottom: 30px solid transparent;
 }
- 
+
 .bigger:after {
     left: -22px;
     border-top: 30px solid transparent;
     border-bottom: 30px solid transparent;
 }
 
+.answers:hover {
+    color: cornflowerblue;
+    cursor: pointer;
+}
 
-.answers:hover {color: cornflowerblue; cursor: pointer;}
-.answers:active {color: orchid;}
+.answers:active {
+    color: orchid;
+}
 
-.span2 {color: rgb(233, 162, 30); margin-right: 5px;}
+.span2 {
+    color: rgb(233, 162, 30);
+    margin-right: 5px;
+}
 
 .left {
     float: left;
@@ -543,96 +548,82 @@ button:hover {
 }
 
 @media (max-width: 420px) {
-
     .down {
         width: 276px;
         height: 100px;
         margin-top: -501px;
     }
-
     .down:before {
         right: -42px;
         border-left: 42px solid #083261;
         border-top: 52px solid transparent;
         border-bottom: 48px solid transparent;
     }
-
     .down:after {
         left: -42px;
         border-right: 42px solid #083261;
         border-top: 52px solid transparent;
         border-bottom: 48px solid transparent;
     }
-
-    .down span {text-align: initial;}
-
+    .down span {
+        text-align: initial;
+    }
     .right {
         float: left;
     }
-
     .answers {
         margin-left: 8px;
         width: 295px;
     }
-
-
     .timer {
         margin-left: 248px;
         margin-bottom: 30px;
         margin-top: 482px;
     }
-    
     .hero-text2 {
         height: 475px;
     }
-    
     .hero-image2 #myLogo2 {
         margin-top: -587px;
     }
-    
     .hero-image2 {
         height: 100vh;
     }
-
     #gameContainer {
         margin-top: -94px;
     }
-
 }
 
 @media(min-width: 410px) and (max-width: 415px) {
-    
-    .answers {margin-left: 31px;}
-
+    .answers {
+        margin-left: 31px;
+    }
     .timer {
         margin-left: 299px;
         margin-top: 552px;
     }
-
-    .down {margin-top: -571px;}
+    .down {
+        margin-top: -571px;
+    }
 }
 
- 
 @media(min-width: 318px) and (max-width: 322px) {
     .hero-image2 #myLogo2 {
         margin-top: -463px;
     }
-
-    .down {width: 240px;}
-
+    .down {
+        width: 240px;
+    }
     .answers {
         width: 283px;
-    }    
-
+    }
     .hero-image2 {
         width: 320px;
         overflow: hidden;
     }
-
     .hero-text2 {
         height: 355px;
     }
-
     .timer {
         margin-left: 240px;
         margin-top: 469px;
@@ -643,100 +634,110 @@ button:hover {
     .hero-image2 {
         height: 100vh;
     }
-
     .hero-image2 #myLogo2 {
         margin-top: -596px;
     }
-
 }
 
 @media(min-width: 270px) and (max-width: 290px) {
     .hero-image2 #myLogo2 {
         margin-top: -567px;
     }
-
     .down {
         width: 185px;
     }
-
-    .arrow-pointer {padding-top: 0px;}
-
-    .answers{width: 223px;}
-
-    .timer { margin-left: 183px; }
-
+    .arrow-pointer {
+        padding-top: 0px;
+    }
+    .answers {
+        width: 223px;
+    }
+    .timer {
+        margin-left: 183px;
+    }
 }
 
 @media(min-width: 760px) and (max-width: 775px) {
-    .timer {margin-left: 0px; margin-bottom: 46px}
-
+    .timer {
+        margin-left: 0px;
+        margin-bottom: 46px
+    }
     #gameContainer {
         margin-top: -57px;
     }
-
     .arrow-pointer {
         width: 688px;
     }
-
-    .left {float: none;}
-    .right {float: none;}
-    .answers {width: 580px; margin-right: auto;}
-
+    .left {
+        float: none;
+    }
+    .right {
+        float: none;
+    }
+    .answers {
+        width: 580px;
+        margin-right: auto;
+    }
 }
 
 @media(min-width: 1020px) and (max-width: 1030px) {
-    .timer {margin-left: 0px; margin-bottom: 46px}
-
+    .timer {
+        margin-left: 0px;
+        margin-bottom: 46px
+    }
     #gameContainer {
         margin-top: -57px;
     }
+    .right {
+        float: none;
+    }
+}
 
-    .right {float: none;}
-} 
- 
 /* End of the game */
 
 @media (max-width: 420px) {
     .hero-text3 {
         margin-top: -110px;
     }
-
-    .hero-text3  {
+    .hero-text3 {
         width: 95%;
     }
-
-    .messegeC {width: 100%;}
-
-    .hero-text .happy {width: 100.3%;}
-    
-    .box #like {width: 60%;}
-    .box #video {width: 66%; margin-top: 4px;}
-    #fixArrow {width: 72%; margin-top: 8px;}
-
+    .messegeC {
+        width: 100%;
+    }
+    .hero-text .happy {
+        width: 100.3%;
+    }
+    .box #like {
+        width: 60%;
+    }
+    .box #video {
+        width: 66%;
+        margin-top: 4px;
+    }
+    #fixArrow {
+        width: 72%;
+        margin-top: 8px;
+    }
     .box p {
         background-color: initial;
         border: none;
         padding: initial;
-        }
-
+    }
     #firstI {
         margin-top: -11px;
     }
-    
     #secondI {
         width: 110%;
         margin-left: -8px;
     }
-
     #thirdI {
         margin-top: 9px;
     }
-    
     #endGame section {
         width: 100%;
         margin-left: 4px;
     }
-
 }
 
 @media(min-width: 270px) and (max-width: 290px) {
@@ -744,35 +745,23 @@ button:hover {
         width: 101%;
         margin-left: -1px;
     }
-
     .messege {
         width: 101%;
         margin-left: -1px;
     }
-
-    .messegeC {border-width: 4px 5px 5px;} 
-
+    .messegeC {
+        border-width: 4px 5px 5px;
+    }
     .box #like {
         width: 62%;
     }
-
     #fixArrow {
         margin-top: 6.5px;
     }
-     
     #firstI {
         margin-top: -9px;
-    }   
-
+    }
     #thirdI {
         margin-top: 6px;
     }
 }
-
-
-
-
-
-
-
-

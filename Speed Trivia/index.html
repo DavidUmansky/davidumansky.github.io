@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,120 +13,131 @@
 </head>
 
 <body>
-    
-<div class="hero-image">
 
-    <img id="davweb" src="logo-transparent.png" alt="logo Davweb" usemap="#workmap">     
-    
-    <map name="workmap">
-        <area shape="circle" coords="60,60,34" alt="Cup of coffee" href="https://www.facebook.com/Davweb-100670495406906">
-    </map>
+    <div class="hero-image">
 
-    <!-- Intro -->
+        <img id="davweb" src="logo-transparent.png" alt="logo Davweb" usemap="#workmap">
 
-    <div class="hero-text">          
-        <h1 class="center_text">Speed Trivia</h1>
-        <p id="header_p">
-            Welcome to the game 'Speed Trivia'- the quiz that simulates the familiar television game 
-            show "Who Wants to Be a Millionaire?". This game will give you a good indication about your 
-            knowledge level in the subject you choose.
-        <p>
-    <hr>
+        <map name="workmap">
+            <area shape="circle" coords="60,60,34" alt="Cup of coffee"
+                href="https://www.facebook.com/Davweb-100670495406906">
+        </map>
 
-    <div class="icon" id="question_div">
-        <img src="question.png" alt="question icon" id="question">     
-        <p>
-            10 question about the subject you choose, at the difficulty level you choose.
-        </p>
-    </div>
- 
-    <div class="icon" id="timer_div">
-        <img src="timer.png" alt="tiner icon" id="timer">     
-        <p>
-            You have 30 seconds for each question, if you don't make it, the next question will <span>appear 
-            and the previous will be considered as wrong. </span>
-        </p>
-    </div>
+        <!-- Intro -->
 
-    <div class="clr"></div>
+        <div class="hero-text">
+            <h1 class="center_text">Speed Trivia</h1>
+            <p id="header_p">
+                Welcome to the game 'Speed Trivia'- the quiz that simulates the familiar television game
+                show "Who Wants to Be a Millionaire?". This game will give you a good indication about your
+                knowledge level in the subject you choose.
+            <p>
+                <hr>
 
-    <div class="icon" id="danger_div">
-        <img src="danger.png" alt="danger icon">     
-        <p>
-            If you answer wrong 3 times - the game is over.
-        </p>
-    </div>
+            <div class="icon" id="question_div">
+                <img src="question.png" alt="question icon" id="question">
+                <p>
+                    10 question about the subject you choose, at the difficulty level you choose.
+                </p>
+            </div>
 
-    <select id="select1">
-        <option selected>Choose questions subject</option>
-        <option>Music</option>
-        <option>Films</option>
-        <option>Sports</option>
-        <option>History</option>
-        <option>Animals</option>
-    </select> 
+            <div class="icon" id="timer_div">
+                <img src="timer.png" alt="tiner icon" id="timer">
+                <p>
+                    You have 30 seconds for each question, if you don't make it, the next question will <span>appear
+                        and the previous will be considered as wrong. </span>
+                </p>
+            </div>
 
-    <select>
-        <option selected>Choose difficulty level</option>
-        <option>Easy</option>
-        <option>Medium</option>
-        <option>Hard</option>
-    </select> 
+            <div class="clr"></div>
 
-    <a href="#davweb"><button>Start quiz</button></a> 
+            <div class="icon" id="danger_div">
+                <img src="danger.png" alt="danger icon">
+                <p>
+                    If you answer wrong 3 times - the game is over.
+                </p>
+            </div>
 
-    <!-- Outro -->
+            <select id="select1">
+                <option selected>Choose questions subject</option>
+                <option>Music</option>
+                <option>Films</option>
+                <option>Sports</option>
+                <option>History</option>
+                <option>Animals</option>
+            </select>
 
-    <!-- Game -->
-      
-    <div id="gameContainer">
-        <span class="timer">30</span>
-        <div class="arrow-pointer down"><span id="spanQ"></span></div>
-        <div class="arrow-pointer answers left"><span class="span2">A)</span><span class="ansSpan"></span></div>
-        <div class="arrow-pointer answers right"><span class="span2">B)</span><span class="ansSpan"></span></div>
-        <div class="arrow-pointer answers left"><span class="span2">C)</span><span class="ansSpan"></span></div>
-        <div class="arrow-pointer answers right"><span class="span2">D)</span><span class="ansSpan"></span></div>
-    </div>
-         
-    <div id="endGame" class="hero-text">
-        <p id="likeTop">&#x1F44D</p>
-        
-        <div class="messegeC">
-            <p class="messege"></p>
-            <img src="" alt="victory image" class="happy">
-            <img src="" alt="victory image" class="happy">
-            <img src="" alt="victory image" class="happy">
-    
+            <select>
+                <option selected>Choose difficulty level</option>
+                <option>Easy</option>
+                <option>Medium</option>
+                <option>Hard</option>
+            </select>
+
+            <a href="#davweb"><button>Start quiz</button></a>
+
+            <!-- Outro -->
+
+            <!-- Game -->
+
+            <div id="gameContainer">
+                <span class="timer">30</span>
+                <div class="arrow-pointer down"><span id="spanQ"></span></div>
+                <div class="arrow-pointer answers left"><span class="span2">A)</span><span class="ansSpan"></span></div>
+                <div class="arrow-pointer answers right"><span class="span2">B)</span><span class="ansSpan"></span>
+                </div>
+                <div class="arrow-pointer answers left"><span class="span2">C)</span><span class="ansSpan"></span></div>
+                <div class="arrow-pointer answers right"><span class="span2">D)</span><span class="ansSpan"></span>
+                </div>
+            </div>
+
+            <div id="endGame" class="hero-text">
+                <p id="likeTop">&#x1F44D</p>
+
+                <div class="messegeC">
+                    <p class="messege"></p>
+                    <img src="" alt="victory image" class="happy">
+                    <img src="" alt="victory image" class="happy">
+                    <img src="" alt="victory image" class="happy">
+
+                </div>
+
+                <section id="features">
+                    <div class="box">
+                        <a href="index.html"><img src="go-back-arrow.png" alt="return logo" id="fixArrow"></a>
+                        <a href="index.html">
+                            <p class="fixH" id="firstI">Play again</p>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="#"><img src="video-player.png" alt="video logo" id="video"></a>
+                        <a href="#">
+                            <p id="secondI">Video about the game</p>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="https://www.facebook.com/Davweb-100670495406906"><img src="thumb-up.png" alt="like"
+                                id="like"></a>
+                        <a href="https://www.facebook.com/Davweb-100670495406906">
+                            <p class="fixH" id="thirdI">Like my page</p>
+                        </a>
+                    </div>
+                </section>
+            </div>
+
+
         </div>
-    
-        <section id="features">
-            <div class="box">
-                <a href="index.html"><img src="go-back-arrow.png" alt="return logo" id="fixArrow"></a>
-                <a href="index.html"><p class="fixH" id="firstI">Play again</p></a>
-            </div>
-            <div class="box">
-                <a href="#"><img src="video-player.png" alt="video logo" id="video"></a>
-                <a href="#"><p id="secondI">Video about the game</p></a>
-            </div> 
-            <div class="box">
-                <a href="https://www.facebook.com/Davweb-100670495406906"><img src="thumb-up.png" alt="like" id="like"></a>
-                <a href="https://www.facebook.com/Davweb-100670495406906"><p class="fixH" id="thirdI">Like my page</p></a>
-            </div>
-        </section>        
+
+        <img id="myLogo2" src="myLogo2.png" alt="">
+
     </div>
 
 
-  </div>
-    
-   <img id="myLogo2" src="myLogo2.png" alt="">
-
-</div>
 
 
 
 
-
-
-    <script src="script.js"></script>    
+    <script src="script.js"></script>
 </body>
+
 </html>
