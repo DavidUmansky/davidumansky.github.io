@@ -218,6 +218,7 @@ button:hover {
 
     .hero-image #davweb {
         width: 37%;
+        margin-left: -4px;
     }
 
     .hero-text {
