@@ -346,8 +346,8 @@ button:hover {
         width: 37%;
     }
     .hero-image #myLogo2 {
-        width: 23.5%;
-        margin-top: -1208px;
+        width: 22.5%;
+        margin-top: -1194px;    
     }
     .hero-image {
         height: 1239px;
@@ -371,9 +371,6 @@ button:hover {
     #question {
         width: 20%;
         margin-top: -11px;
-    }
-    .hero-image #myLogo2 {
-        margin-top: -1202px;
     }
 }
 
