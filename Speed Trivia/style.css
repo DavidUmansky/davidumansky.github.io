@@ -224,6 +224,10 @@ button:hover {
     background-color: rgb(116, 250, 255);
 }
 
+@media (min-width: 1000px) {
+    #question {width: 6.5%;}
+}
+
 @media (max-width: 420px) {
     .hero-image {
         height: 1135px;
