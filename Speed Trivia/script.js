@@ -13,7 +13,7 @@ const secSpan = document.querySelector('.timer')
 const answers2 = document.getElementsByClassName('answers');
 const answersLetter = document.getElementsByClassName('span2');
 const body = document.getElementsByTagName('body');
-const phoneImg = document.getElementsByClassName('test');
+const phoneImg = document.getElementsByClassName('newbgI');
 const messageImg = document.getElementsByClassName('happy');
 const messageContent = document.getElementsByClassName('messegeC');
 const messegeSign = document.getElementById('likeTop');
@@ -30,7 +30,7 @@ let correct = 0;
 
 
 if (window.innerWidth < 421) {
-    imgBG.classList.add('test');
+    imgBG.classList.add('newbgI');
 }
 
 const enterGame = () => {
