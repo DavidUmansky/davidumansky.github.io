@@ -325,7 +325,7 @@ button:hover {
         height: 994px;
     }
     .hero-image #myLogo2 {
-        margin-top: -1098px;
+        margin-top: -1091px;
     }
     img#timer {
         margin-bottom: 73px;
@@ -339,9 +339,6 @@ button:hover {
 @media(min-width: 370px) and (max-width: 380px) {
     #danger_div img {
         margin-right: 5px;
-    }
-    .hero-image #myLogo2 {
-        margin-top: -1091px;
     }
 }
 
