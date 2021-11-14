@@ -733,8 +733,9 @@ button:hover {
     }
     #thirdI {
         margin-top: 9px;
-        margin-right: 14px;
+        margin-left:11px;
     }
+    
     #endGame section {
         width: 100%;
         margin-left: 4px;
@@ -766,3 +767,17 @@ button:hover {
         margin-top: 6px;
     }
 }
+
+@media(min-width: 410px) and (max-width: 415px) {
+    #thirdI {
+        margin-right: 14px;
+    }    
+}
+
+
+
+
+
+
+
+
