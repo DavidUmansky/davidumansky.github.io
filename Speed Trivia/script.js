@@ -4,7 +4,6 @@ const gameContent = document.querySelector('#gameContainer');
 const endContent = document.querySelector('#endGame');
 const imgBG = document.querySelector('.hero-image');
 const question = document.getElementsByClassName('arrow-pointer')[0];
-const logo = document.querySelector('#myLogo2');
 const selects = document.getElementsByTagName('select');
 const spanQ = document.getElementById('spanQ');
 const answers = document.getElementsByClassName('ansSpan');
@@ -68,7 +67,6 @@ const enterGame = () => {
     gameContent.style.display = 'block'
     introContent.classList.add('hero-text2');
     imgBG.classList.add('hero-image2');
-    logo.style.display = 'none';
     const gameContainer = document.querySelector('.hero-text2');
 
     function endM() {
@@ -106,34 +104,33 @@ const enterGame = () => {
                         for (let y = 0; y < 2; y++) {
                             messageImg[y].parentNode.removeChild(messageImg[y])
                         }
+                        endContent.style.width = '310px';
                         messageImg[0].src = 'victory.gif';
                         messageImg[0].style.height = '148.1px'
                         messageImg[0].style.width = '100%'
                         messageContent[0].style.height = '275px'
                         messege[0].style.marginTop = '-0.6px'
                         document.getElementById('fixArrow').src = 'return.png';
-                        document.getElementById('firstI').style.marginTop = '-9px';
-                        document.getElementById('video').style.marginLeft = '6px';
                     }
 
                     if (window.innerWidth < 415 && window.innerWidth > 410) {
                         document.getElementById('fixArrow').style.marginTop = '10px';
-                        document.getElementById('video').style.marginTop = '5px'
-                        document.getElementById('firstI').style.marginTop = '-12px';
-                        document.getElementById('thirdI').style.marginTop = '11px';
                         document.getElementById('secondI').style.marginLeft = '-4px';
-                        document.getElementById('video').style.marginLeft = '4px';
+                        document.getElementById('thirdI').style.marginTop = '10.5px';
                     }
 
                     if (window.innerWidth < 322 && window.innerWidth > 318) {
+                        endContent.style.width = '280px';
                         messageImg[0].style.height = '128.2px'
                         messegeSign.style.width = '62.5%';
+                        document.getElementById('thirdI').style.marginTop = '6.8px';
                     }
 
                     if (window.innerWidth < 290 && window.innerWidth > 270) {
+                        endContent.style.width = '255px';
                         messageImg[0].style.height = '111px'
                         messageImg[0].style.width = '100.7%'
-                        document.getElementById('firstI').style.marginTop = '-6px';
+                        document.getElementById('thirdI').style.marginTop = '5.5px';
                     }
 
                     if (window.innerWidth < 1030 && window.innerWidth > 1020) {
@@ -153,8 +150,7 @@ const enterGame = () => {
                         messageImg[x].style.height = '168px'
                     }
                     messege[0].style.backgroundColor = '#de5e55'
-                    messageContent[0].style.border = '5px solid #4b1d24'
-                    // messageContent[0].style.borderTop = '6px solid rgb(199 38 62)'
+            
 
                     if (window.innerWidth < 421) {
                         for (let y = 0; y < 2; y++) {
@@ -181,7 +177,6 @@ const enterGame = () => {
                         messageImg[0].style.height = '127.5px'
                         messege[0].style.marginTop = '-0.7px'
                         document.getElementById('fixArrow').style.marginTop = '7px';
-                        document.getElementById('firstI').style.marginTop = '-6px';
                     }
 
                     if (window.innerWidth < 1030 && window.innerWidth > 1020) {
@@ -219,22 +214,6 @@ const enterGame = () => {
                             answers2[i].classList.add('bigger');
                         } else {
                             answers2[i].classList.remove('bigger');
-                        }
-                        i++
-                    }
-                }
-
-                if (window.innerWidth < 290 && window.innerWidth > 270) {
-                    const imgBG2 = document.querySelector('.hero-image2');
-
-                    let i = 0;
-                    while (i < 4) {
-                        if (divQ.innerText.length > 85) {
-                            imgBG2.style.overflow = 'hidden';
-                            divQ.style.width = '235px'
-                        } else {
-                            imgBG2.style.overflow = 'initial';
-                            divQ.style.width = '185px'
                         }
                         i++
                     }

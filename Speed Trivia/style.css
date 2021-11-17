@@ -67,8 +67,6 @@ section p {
 
 .messegeC {
     height: 216px;
-    border: 6px inset #13b208;
-    border-radius: 5px;
     width: 98%;
     margin: auto;
     margin-top: -4px;
@@ -83,6 +81,7 @@ section p {
     text-align: initial;
     margin-top: -0.5px;
     margin-right: -0.7px;
+    width: 100%;
 }
 
 .hero-text .happy {
@@ -95,12 +94,11 @@ section p {
     float: left;
     width: 33.3%;
     text-align: center;
+    margin-left: 80px;
 }
 
-.box #video {
-    margin-top: 17px;
-}
 
+ 
 .box img:hover {
     cursor: pointer;
 }
@@ -112,13 +110,6 @@ section p {
 
 .box a {
     text-decoration: none;
-}
-
-.hero-image #myLogo2 {
-    width: 7%;
-    float: right;
-    margin-top: 21px;
-    margin-right: 16px;
 }
 
 .hero-text h1 {
@@ -174,6 +165,11 @@ hr {
     margin-left: 10px;
 }
 
+@media (min-width: 440px) {
+    #lastPI {margin-left: 7px;}
+}
+ 
+
 #idQues {
     margin-left: -2px;
 }
@@ -225,7 +221,7 @@ button:hover {
 }
 
 @media (min-width: 1000px) {
-    #question {width: 6.5%;}
+    #question {width: 6%;}
 }
 
 @media (max-width: 420px) {
@@ -248,11 +244,7 @@ button:hover {
         height: 970px;
         margin: auto;
     }
-    .hero-image #myLogo2 {
-        width: 21%;
-        margin-top: -1083px;
-        margin-right: 16px;
-    }
+ 
     img#timer {
         margin-bottom: 50px;
     }
@@ -306,11 +298,8 @@ button:hover {
 }
 
 @media(min-width: 410px) and (max-width: 415px) {
-    .hero-image #myLogo2 {
-        width: 20%;
-        margin-top: -1012.5px;
-        /* This is my */
-    }
+         /* This is my */
+
     #question {
         width: 14.5%;
     }
@@ -324,9 +313,7 @@ button:hover {
         width: 94%;
         height: 994px;
     }
-    .hero-image #myLogo2 {
-        margin-top: -1091px;
-    }
+ 
     img#timer {
         margin-bottom: 73px;
     }
@@ -346,10 +333,7 @@ button:hover {
     .hero-image #davweb {
         width: 37%;
     }
-    .hero-image #myLogo2 {
-        width: 22.5%;
-        margin-top: -1194px;    
-    }
+
     .hero-image {
         height: 1239px;
     }
@@ -376,23 +360,29 @@ button:hover {
 }
 
 @media(min-width: 760px) and (max-width: 775px) {
-    .hero-image #myLogo2 {
-        width: 17%;
-        margin-top: 26px;
-    }
+ 
     .hero-image #davweb {
         width: 27%;
     }
     .hero-text {
         width: 742px;
     }
+
+    .icon p span {
+        margin-left: initial;
+    }
+
+    .icon p {
+        margin-left: initial;
+    }
+
+    #lastPI {
+        margin-left: 0px;
+    }
 }
 
 @media(min-width: 1010px) and (max-width: 1030px) {
-    .hero-image #myLogo2 {
-        width: 14%;
-        margin-top: 24px;
-    }
+     
     .hero-image #davweb {
         width: 22%;
     }
@@ -403,6 +393,18 @@ button:hover {
         padding-top: 52px;
         padding-right: 20px;
         padding-left: 20px;
+    }
+
+    .icon p span {
+        margin-left: initial;
+    }
+
+    .icon p {
+        margin-left: initial;
+    }
+
+    #lastPI {
+        margin-left: 0px;
     }
 }
 
@@ -580,9 +582,7 @@ button:hover {
     .hero-text2 {
         height: 475px;
     }
-    .hero-image2 #myLogo2 {
-        margin-top: -587px;
-    }
+ 
     .hero-image2 {
         height: 100vh;
     }
@@ -605,14 +605,13 @@ button:hover {
 }
 
 @media(min-width: 318px) and (max-width: 322px) {
-    .hero-image2 #myLogo2 {
-        margin-top: -463px;
-    }
+ 
     .down {
-        width: 240px;
+        width: 285px;
     }
     .answers {
-        width: 283px;
+        width: 300px;
+        margin-left: -10px;
     }
     .hero-image2 {
         width: 320px;
@@ -622,7 +621,7 @@ button:hover {
         height: 355px;
     }
     .timer {
-        margin-left: 240px;
+        margin-left: 227px;
         margin-top: 469px;
     }
 }
@@ -631,24 +630,25 @@ button:hover {
     .hero-image2 {
         height: 100vh;
     }
-    .hero-image2 #myLogo2 {
-        margin-top: -596px;
-    }
 }
 
 @media(min-width: 270px) and (max-width: 290px) {
-    .hero-image2 #myLogo2 {
-        margin-top: -567px;
+ 
+    .answers {
+        width: 300px;
+        margin-left: -39px;
     }
+
     .down {
-        width: 185px;
+        margin-left: -21px;
     }
+
+    .hero-image2 {overflow: hidden}
+
     .arrow-pointer {
         padding-top: 0px;
     }
-    .answers {
-        width: 223px;
-    }
+     
     .timer {
         margin-left: 183px;
     }
@@ -691,6 +691,8 @@ button:hover {
 }
 
 /* End of the game */
+.messegeC {width: 100%;}
+
 
 @media (max-width: 420px) {
     .hero-text3 {
@@ -699,19 +701,32 @@ button:hover {
     .hero-text3 {
         width: 95%;
     }
+
+    #endGame {
+        display: none;
+        width: 295px;
+    }
+
+    .messege {
+        width: 100%;
+    }
+
     .messegeC {
         width: 100%;
     }
+    
     .hero-text .happy {
-        width: 100.3%;
+        width: 100%;
     }
+    
+    .box {
+        margin-left: 27px;
+    }
+
     .box #like {
         width: 60%;
     }
-    .box #video {
-        width: 66%;
-        margin-top: 4px;
-    }
+ 
     #fixArrow {
         width: 72%;
         margin-top: 8px;
@@ -720,6 +735,7 @@ button:hover {
         background-color: initial;
         border: none;
         padding: initial;
+        line-height: 15px;
     }
     #firstI {
         margin-top: -11px;
@@ -729,8 +745,7 @@ button:hover {
         margin-left: -8px;
     }
     #thirdI {
-        margin-top: 9px;
-        margin-left:11px;
+        margin-top: 8.8px;
     }
     
     #endGame section {
@@ -739,21 +754,34 @@ button:hover {
     }
 }
 
+@media(min-width: 410px) and (max-width: 415px) {
+    #thirdI {
+        margin-top: 9.2px;
+    }
+}
+ 
+
+
 @media(min-width: 270px) and (max-width: 290px) {
+
+    #endGame {
+        width: 255px;
+        margin-top: 42px;
+    }
+
     .hero-text .happy {
-        width: 101%;
         margin-left: -1px;
     }
     .messege {
-        width: 101%;
         margin-left: -1px;
     }
-    .messegeC {
-        border-width: 4px 5px 5px;
-    }
+
     .box #like {
         width: 62%;
     }
+
+    .box {margin-left: 20px;}
+
     #fixArrow {
         margin-top: 6.5px;
     }
@@ -761,7 +789,7 @@ button:hover {
         margin-top: -9px;
     }
     #thirdI {
-        margin-top: 6px;
+        margin-top: 8px;
     }
 }
 
