@@ -115,7 +115,6 @@ const enterGame = () => {
 
                     if (window.innerWidth < 415 && window.innerWidth > 410) {
                         document.getElementById('fixArrow').style.marginTop = '10px';
-                        document.getElementById('secondI').style.marginLeft = '-4px';
                         document.getElementById('thirdI').style.marginTop = '10.5px';
                     }
 
