@@ -373,6 +373,7 @@ button:hover {
     }
     .hero-text {
         width: 742px;
+        top: 42%;
     }
 
     .icon p span {
