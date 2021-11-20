@@ -23,7 +23,7 @@ let subject2;
 let l; // 0-3 to get right answer
 let count = 0;
 let gameO_counter = 0;
-let x;
+let x = 0;
 let correct = 0;
 
 
@@ -257,8 +257,6 @@ const enterGame = () => {
                     sec_value = i + sec_value
                 }
 
-                // padding-left: 11.5px;
-
                 secSpan.innerHTML = sec_value;
 
                 if (sec_value < 20 && sec_value > 9) {
@@ -268,9 +266,6 @@ const enterGame = () => {
                     secSpan.style.justifyContent = 'center'
                     secSpan.style.paddingLeft = 'initial'
                 }
-
-                //     justify-content: center;
-
 
                 if (+sec_value < 10) {
                     secSpan.style.backgroundColor = 'red'

@@ -542,8 +542,6 @@ button:hover {
 }
 
 .timer {
-    display: inline-block;
-    margin-left: -150px;
     font-size: xx-large;
     color: white;
     border-radius: 50%;
@@ -555,14 +553,15 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 @media (max-width: 420px) {
     .down {
         width: 276px;
         height: 100px;
-        margin-top: -501px;
     }
+    
     .down:before {
         right: -42px;
         border-left: 42px solid #083261;
@@ -585,11 +584,7 @@ button:hover {
         margin-left: 8px;
         width: 295px;
     }
-    .timer {
-        margin-left: 248px;
-        margin-bottom: 30px;
-        margin-top: 482px;
-    }
+    
     .hero-text2 {
         height: 475px;
     }
@@ -598,21 +593,21 @@ button:hover {
         height: 100vh;
     }
     #gameContainer {
-        margin-top: -94px;
+        margin-top: -32px;
     }
+
+    .timer {margin: auto;}
 }
+
 
 @media(min-width: 410px) and (max-width: 415px) {
     .answers {
         margin-left: 31px;
     }
-    .timer {
-        margin-left: 299px;
-        margin-top: 552px;
-    }
-    .down {
-        margin-top: -571px;
-    }
+}
+
+@media(min-width: 370px) and (max-width: 380px) {
+    .answers {margin-left: 14px;}
 }
 
 @media(min-width: 318px) and (max-width: 322px) {
@@ -631,10 +626,6 @@ button:hover {
     .hero-text2 {
         height: 355px;
     }
-    .timer {
-        margin-left: 227px;
-        margin-top: 469px;
-    }
 }
 
 @media(min-width: 370px) and (max-width: 380px) {
@@ -650,26 +641,14 @@ button:hover {
         margin-left: -39px;
     }
 
-    .down {
-        margin-left: -21px;
-    }
-
     .hero-image2 {overflow: hidden}
 
     .arrow-pointer {
         padding-top: 0px;
     }
-     
-    .timer {
-        margin-left: 183px;
-    }
 }
 
 @media(min-width: 760px) and (max-width: 775px) {
-    .timer {
-        margin-left: 0px;
-        margin-bottom: 46px
-    }
     #gameContainer {
         margin-top: -57px;
     }
@@ -689,16 +668,14 @@ button:hover {
 }
 
 @media(min-width: 1020px) and (max-width: 1030px) {
-    .timer {
-        margin-left: 0px;
-        margin-bottom: 46px
-    }
     #gameContainer {
         margin-top: -57px;
     }
     .right {
         float: none;
     }
+
+    .timer {margin-top: 15px;}
 }
 
 /* End of the game */
@@ -763,6 +740,8 @@ button:hover {
         width: 100%;
         margin-left: 4px;
     }
+
+
 }
 
 @media(min-width: 410px) and (max-width: 415px) {
@@ -771,8 +750,6 @@ button:hover {
     }
 }
  
-
-
 @media(min-width: 270px) and (max-width: 290px) {
 
     #endGame {
@@ -810,16 +787,20 @@ button:hover {
     }    
 }
 
-@media(min-width: 410px) and (max-width: 415px) and (min-height: 800px) {
-    .down {
-        margin-top: -472px;
+@media(min-width: 1030px) {
+    .hero-text2 {
+        width: 850px;
     }
 
-    #gameContainer {
-        margin-top: -187px;
+    .answers {
+        margin-right: -11px;
+    }
+
+    .timer {
+        margin-left: -23px;
+        margin-top: 10px;
     }
 }
-
 
 
 
