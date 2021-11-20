@@ -725,15 +725,13 @@ button:hover {
         padding: initial;
         line-height: 15px;
     }
+    
     #firstI {
-        margin-top: -11px;
+        display: none;
     }
-    #secondI {
-        width: 110%;
-        margin-left: -8px;
-    }
+    
     #thirdI {
-        margin-top: 8.8px;
+        display: none;
     }
     
     #endGame section {
