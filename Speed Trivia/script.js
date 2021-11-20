@@ -23,7 +23,7 @@ let subject2;
 let l; // 0-3 to get right answer
 let count = 0;
 let gameO_counter = 0;
-let x = 0;
+let x;
 let correct = 0;
 
 
