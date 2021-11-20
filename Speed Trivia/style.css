@@ -366,7 +366,7 @@ button:hover {
     }
 }
 
-@media(min-width: 760px) and (max-width: 775px) {
+@media(min-width: 760px) and (max-width: 890px) {
  
     .hero-image #davweb {
         width: 27%;
@@ -648,7 +648,7 @@ button:hover {
     }
 }
 
-@media(min-width: 760px) and (max-width: 775px) {
+@media(min-width: 760px) and (max-width: 890px) {
     #gameContainer {
         margin-top: -57px;
     }
