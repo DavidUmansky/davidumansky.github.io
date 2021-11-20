@@ -726,11 +726,7 @@ button:hover {
         line-height: 15px;
     }
     
-    #firstI {
-        display: none;
-    }
-    
-    #thirdI {
+    .willD {
         display: none;
     }
     
