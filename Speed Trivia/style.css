@@ -738,12 +738,7 @@ button:hover {
 
 }
 
-@media(min-width: 410px) and (max-width: 415px) {
-    #thirdI {
-        margin-top: 9.2px;
-    }
-}
- 
+  
 @media(min-width: 270px) and (max-width: 290px) {
 
     #endGame {
@@ -767,18 +762,7 @@ button:hover {
     #fixArrow {
         margin-top: 6.5px;
     }
-    #firstI {
-        margin-top: -9px;
-    }
-    #thirdI {
-        margin-top: 6px;
-    }
-}
-
-@media(min-width: 410px) and (max-width: 415px) {
-    #thirdI {
-        margin-right: 14px;
-    }    
+     
 }
 
 @media(min-width: 1030px) {
