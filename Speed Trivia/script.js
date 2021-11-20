@@ -167,8 +167,6 @@ const enterGame = () => {
                         messege[0].style.marginLeft = '-0.7px'
                         messageImg[0].style.marginLeft = '-0.7px';
                         messageImg[0].style.width = '100.5%';
-                        document.getElementById('secondI').style.marginLeft = '-4px';
-                         
                     }
 
 
