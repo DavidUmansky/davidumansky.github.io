@@ -597,7 +597,7 @@ button:hover {
         margin-top: -32px;
     }
 
-    .timer {margin: auto;}
+    .timer {margin: auto; margin-top: 10px;}
 }
 
 
