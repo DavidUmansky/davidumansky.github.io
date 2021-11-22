@@ -592,6 +592,7 @@ button:hover {
  
     .hero-image2 {
         height: 100vh;
+        overflow: hidden;
     }
     #gameContainer {
         margin-top: -32px;
@@ -601,7 +602,7 @@ button:hover {
 }
 
 
-@media(min-width: 410px) and (max-width: 415px) {
+@media(min-width: 410px) and (max-width: 420px) {
     .answers {
         margin-left: 31px;
     }
@@ -781,7 +782,15 @@ button:hover {
     }
 }
 
+@media(min-width: 381px) and (max-width: 391px) {
+    .answers {
+        margin-left: 16px;
+    }
+}
 
-
-
+@media(min-width: 391px) and (max-width: 410px) {
+    .answers {
+        margin-left: 24px;
+    }
+}
 
