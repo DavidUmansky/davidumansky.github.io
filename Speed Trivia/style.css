@@ -794,3 +794,8 @@ button:hover {
     }
 }
 
+@media(min-width: 380px) and (max-width: 409px) {
+    #question {width: 15%;}
+}
+
+
