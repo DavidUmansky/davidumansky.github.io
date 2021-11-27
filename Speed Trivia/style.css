@@ -304,7 +304,7 @@ button:hover {
     }
 }
 
-@media(min-width: 410px) and (max-width: 415px) {
+@media(min-width: 410px) and (max-width: 420px) {
          /* This is my */
 
     #question {
