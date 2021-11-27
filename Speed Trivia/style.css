@@ -798,4 +798,7 @@ button:hover {
     #question {width: 15%;}
 }
 
+@media(min-width: 350px) and (max-width: 363px) {
+    .hero-text {width: 93%;}
+}
 
